@@ -2,6 +2,10 @@
 
 > **Italian/English-localized fork of [MiroFish](https://github.com/666ghj/MiroFish)** — brand-perception analytics platform with universal ingestion (CSV/XLSX/PDF/MD), AI-generated report and OASIS-based social simulation.
 
+🔗 **Live demo:** <https://www.edoedoedo.it/experiments/miroedo/>
+
+![MiroEdo — live OASIS social simulation with emerging knowledge graph](docs/preview.png)
+
 Status: **end-to-end working** — see the two showcases NordaLatte (crisis-recall) and Verdaia (ESG launch) shipped as static demos from the frontend.
 
 ---
