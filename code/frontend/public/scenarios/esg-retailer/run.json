@@ -1,0 +1,1018 @@
+{
+    "run_id": "esg-retailer",
+    "status": "succeeded",
+    "mode": "full",
+    "brand": "Verdaia Foods",
+    "source_type": "tabular",
+    "source_filename": "verdaia_esg_mentions_2026Q1.csv",
+    "enable_simulation": true,
+    "created_at": "2026-05-20T09:14:00Z",
+    "updated_at": "2026-05-20T09:42:18Z",
+    "progress": { "step": "completed" },
+    "scenario_brief": "New ESG policy launch: 100% traceable supply chain + 4% premium-line price cut. Measure social reaction (IT/EN) in the 14 days after the announcement.",
+    "simulation_status": "succeeded",
+    "simulation_progress": { "step": "completed" },
+    "result": {
+        "mode": "full",
+        "warnings": [],
+        "brand_seed": {
+            "brand": "Verdaia Foods",
+            "market": "Italy",
+            "language": "it",
+            "total_mentions": 8742,
+            "overall_sentiment": 0.18,
+            "segments": [
+                {
+                    "name": "Families 35-55",
+                    "weight": 0.38,
+                    "description": "Core customer base, price/quality sensitive"
+                },
+                {
+                    "name": "Gen Z & urban Millennials",
+                    "weight": 0.27,
+                    "description": "Sustainability sensitive but price elastic"
+                },
+                {
+                    "name": "Seniors 55+",
+                    "weight": 0.19,
+                    "description": "Loyal, skeptical of ESG narrative"
+                },
+                {
+                    "name": "Influencers & EN media",
+                    "weight": 0.1,
+                    "description": "Eco-finance Twitter/X, LinkedIn analysts"
+                },
+                {
+                    "name": "Competitor watchers",
+                    "weight": 0.06,
+                    "description": "Esselunga, Conad, Carrefour staff"
+                }
+            ],
+            "topics": [
+                {
+                    "name": "Supply-chain traceability",
+                    "mentions": 1820,
+                    "sentiment_score": 0.52
+                },
+                {
+                    "name": "Premium price",
+                    "mentions": 1604,
+                    "sentiment_score": -0.31
+                },
+                {
+                    "name": "Greenwashing",
+                    "mentions": 1287,
+                    "sentiment_score": -0.62
+                },
+                {
+                    "name": "Sustainable packaging",
+                    "mentions": 974,
+                    "sentiment_score": 0.41
+                },
+                {
+                    "name": "Labour & suppliers",
+                    "mentions": 812,
+                    "sentiment_score": 0.08
+                },
+                {
+                    "name": "Carbon footprint",
+                    "mentions": 663,
+                    "sentiment_score": 0.33
+                },
+                {
+                    "name": "Loyalty card",
+                    "mentions": 510,
+                    "sentiment_score": 0.21
+                },
+                {
+                    "name": "Esselunga comparison",
+                    "mentions": 487,
+                    "sentiment_score": -0.12
+                },
+                {
+                    "name": "Organic products",
+                    "mentions": 392,
+                    "sentiment_score": 0.45
+                },
+                {
+                    "name": "ESG communication",
+                    "mentions": 193,
+                    "sentiment_score": 0.05
+                }
+            ],
+            "sentiment_breakdown": {
+                "positive": 0.42,
+                "neutral": 0.27,
+                "negative": 0.24,
+                "mixed": 0.07
+            },
+            "platforms": [
+                {
+                    "name": "Twitter/X IT",
+                    "count": 3120,
+                    "share": 0.357,
+                    "sentiment": 0.04
+                },
+                {
+                    "name": "Instagram",
+                    "count": 1980,
+                    "share": 0.226,
+                    "sentiment": 0.31
+                },
+                {
+                    "name": "Facebook",
+                    "count": 1450,
+                    "share": 0.166,
+                    "sentiment": 0.22
+                },
+                {
+                    "name": "LinkedIn",
+                    "count": 920,
+                    "share": 0.105,
+                    "sentiment": 0.48
+                },
+                {
+                    "name": "Reddit r/Italy",
+                    "count": 712,
+                    "share": 0.081,
+                    "sentiment": -0.18
+                },
+                {
+                    "name": "TikTok",
+                    "count": 560,
+                    "share": 0.064,
+                    "sentiment": 0.12
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Italy",
+                    "count": 7820,
+                    "share": 0.895,
+                    "sentiment": 0.17
+                },
+                {
+                    "name": "UK",
+                    "count": 412,
+                    "share": 0.047,
+                    "sentiment": 0.34
+                },
+                {
+                    "name": "Germany",
+                    "count": 287,
+                    "share": 0.033,
+                    "sentiment": 0.21
+                },
+                {
+                    "name": "France",
+                    "count": 153,
+                    "share": 0.018,
+                    "sentiment": 0.08
+                },
+                {
+                    "name": "USA",
+                    "count": 70,
+                    "share": 0.008,
+                    "sentiment": 0.42
+                }
+            ]
+        },
+        "report_markdown": "# Verdaia Foods — ESG Policy Launch Reaction\n\n## Executive summary\n\nThe new ESG policy launch (100% traceable supply chain, premium line −4%) drew **8,742 mentions** in 14 days, with an average sentiment of **+0.18** (moderately positive). The split is sharp between the traceability pillar (enthusiasm, +0.52) and the price pillar (resistance, −0.31). The main reputational risk is the greenwashing narrative, accounting for **14.7%** of mentions with sentiment **−0.62**.\n\n## Key topics\n\n- **Supply-chain traceability** (1,820 mentions, +0.52) — winning narrative, driven by Instagram/LinkedIn.\n- **Premium price** (1,604, −0.31) — friction point on Twitter/X and Reddit, focused on price-sensitive families.\n- **Greenwashing** (1,287, −0.62) — risk driver, fuelled by 6 viral Reddit r/Italy threads.\n- **Sustainable packaging** (974, +0.41) — silent win, underestimated by the marketing team.\n\n## Segments and tone\n\n**Families 35-55** (38%) are split: they appreciate the transparency but resist the price reposition. **Gen Z & urban Millennials** (27%) react the most positively on traceability but stay skeptical on authenticity (greenwashing cluster). **Seniors 55+** are indifferent to the ESG narrative and worried only about price.\n\n## Forecast (4 weeks)\n\nThe Holt-Winters model forecasts a **+22%** growth in mention volume at 4 weeks, with a peak in week 3 in conjunction with mainstream coverage of competitors. 95% confidence bands.\n\n## Action plan (72h horizon)\n\nSee the *Action Plan* section for the 5 priority actions identified by the system.\n",
+        "kpi": {
+            "percentages_found": [
+                {
+                    "value": 22,
+                    "context": "Forecasted mention volume growth at 4 weeks"
+                },
+                {
+                    "value": 14.7,
+                    "context": "Share of mentions with greenwashing narrative"
+                },
+                {
+                    "value": 38,
+                    "context": "Share of the Families 35-55 segment"
+                }
+            ],
+            "timeframes_found": [
+                {
+                    "timeframe": "14 days",
+                    "text": "Post-announcement observation window"
+                },
+                { "timeframe": "72h", "text": "Tactical action plan horizon" },
+                { "timeframe": "4 weeks", "text": "Volume forecast horizon" }
+            ],
+            "segments_mentioned": [
+                "Families 35-55",
+                "Gen Z & urban Millennials",
+                "Seniors 55+",
+                "Influencers & EN media",
+                "Competitor watchers"
+            ],
+            "chapter_count": 5,
+            "predictive_conclusion_count": 7,
+            "blockquote_count": 12,
+            "word_count": 2840,
+            "quantitative_density_score": 0.74
+        },
+        "executive_summary": {
+            "summary_it": "The ESG launch drives positive engagement (+0.18 sentiment, 8,742 mentions) led by supply-chain traceability, but suffers friction on premium pricing and a concrete reputational risk from the greenwashing narrative (14.7% of mentions, −0.62 sentiment). The 4-week forecast points to a +22% volume increase with a week-3 peak.",
+            "highlights": [
+                "Supply-chain traceability is the most discussed topic and the one with highest sentiment (+0.52)",
+                "Premium price is the main friction point, concentrated on Twitter/X and Reddit",
+                "Greenwashing is the #1 reputational risk: 6 viral threads on r/Italy",
+                "LinkedIn shows the highest sentiment (+0.48), an opportunity for B2B amplification",
+                "Senior segment is indifferent to ESG but price-sensitive: moderate churn risk"
+            ],
+            "warnings": [
+                "The Gen Z segment shows initial enthusiasm that the simulation predicts decaying if not reinforced with tangible evidence in the next 14 days"
+            ]
+        },
+        "scenario_drivers": {
+            "scenario_focus": "ESG impact on sentiment and volume in the 14 days after the announcement",
+            "model": "gpt-4o (demo)",
+            "confidence": 0.82,
+            "drivers": [
+                {
+                    "label": "Verifiable traceability",
+                    "evidence_topic": "Supply-chain traceability",
+                    "mentions": 1820,
+                    "sentiment": 0.52,
+                    "strength": "high",
+                    "rationale": "Dominant positive driver. Mentions backed by concrete evidence (QR codes, public audits) get 2× the sentiment of generic ones.",
+                    "sample_quotes": [
+                        "Finally someone putting QR codes on products, not just storytelling.",
+                        "I scanned 5 products, everything checks out. Well done Verdaia.",
+                        "Real transparency, not Esselunga's PR-only kind."
+                    ]
+                },
+                {
+                    "label": "Resistance to premium pricing",
+                    "evidence_topic": "Premium price",
+                    "mentions": 1604,
+                    "sentiment": -0.31,
+                    "strength": "high",
+                    "rationale": "Prevailing friction in the families and seniors segments. The 'ESG = luxury' narrative risks alienating the historic base.",
+                    "sample_quotes": [
+                        "Nice ESG but if it costs 4% more I'll go to the discounter.",
+                        "I pay for sustainability while executives fly business?",
+                        "When ESG hits Lidl prices we'll talk again."
+                    ]
+                },
+                {
+                    "label": "Greenwashing risk",
+                    "evidence_topic": "Greenwashing",
+                    "mentions": 1287,
+                    "sentiment": -0.62,
+                    "strength": "high",
+                    "rationale": "Organised skeptical cluster. 6 viral Reddit r/Italy threads with engagement >500. Catalyst: a video of an employee contradicting official claims.",
+                    "sample_quotes": [
+                        "Verdaia ESG = greenwashing 2.0, just read the financials.",
+                        "Tracked supply chain? Tracked where, from warehouse to shelf?",
+                        "Marketing copy-pasted from Unilever 2019, déjà vu."
+                    ]
+                },
+                {
+                    "label": "LinkedIn B2B opportunity",
+                    "evidence_topic": "ESG communication",
+                    "mentions": 920,
+                    "sentiment": 0.48,
+                    "strength": "medium",
+                    "rationale": "Disproportionately positive sentiment on LinkedIn (+0.48 vs +0.18 average). Financial analysts and ESG professionals cite Verdaia as a case study.",
+                    "sample_quotes": [
+                        "Verdaia's traceability rollout is the most credible Italian retailer move in 3 years.",
+                        "Finally a co-op acting like a co-op. ESG report would be the next step."
+                    ]
+                }
+            ]
+        },
+        "action_plan": {
+            "horizon_hours": 72,
+            "actions": [
+                {
+                    "action": "Publish independent supply-chain audit with raw data",
+                    "owner": "ESG Office + PR",
+                    "timeframe_h": 24,
+                    "rationale": "Defuse the greenwashing narrative by providing non-marketing evidence. Skeptical clusters want data, not claims.",
+                    "kpi_target": "−30% greenwashing mentions in 7 days",
+                    "priority": "high",
+                    "targets_drivers": ["Greenwashing risk"],
+                    "expected_impact": "Greenwashing sentiment from −0.62 to −0.40 in 7d"
+                },
+                {
+                    "action": "Launch 'Accessible ESG' campaign: 12 traced products at pre-hike price",
+                    "owner": "Marketing + Pricing",
+                    "timeframe_h": 48,
+                    "rationale": "Mitigate the 'ESG = luxury' perception by offering concrete proof-points on price-sensitive segments.",
+                    "kpi_target": "Sentiment on 'premium price' from −0.31 to 0.0 in 14 days",
+                    "priority": "high",
+                    "targets_drivers": ["Resistance to premium pricing"],
+                    "expected_impact": "NPS recovery on families 35-55 (+5 estimated points)"
+                },
+                {
+                    "action": "Dedicated brief for LinkedIn ESG influencers (12 targets)",
+                    "owner": "B2B Comms",
+                    "timeframe_h": 72,
+                    "rationale": "Amplify the LinkedIn edge (+0.48 sentiment) before competitors copy the narrative.",
+                    "kpi_target": "10 organic posts on LinkedIn from target influencers within 14d",
+                    "priority": "medium",
+                    "targets_drivers": ["LinkedIn B2B opportunity"],
+                    "expected_impact": "ESG share of voice in Italy +8 points in 30d"
+                },
+                {
+                    "action": "Direct management response to the 6 Reddit greenwashing threads",
+                    "owner": "Customer Care + ESG Office",
+                    "timeframe_h": 24,
+                    "rationale": "Reddit r/Italy doesn't respond to PR, it responds to dialogue. Technical, non-defensive replies reduce virality.",
+                    "kpi_target": "r/Italy negative engagement from +180% back to baseline",
+                    "priority": "high",
+                    "targets_drivers": ["Greenwashing risk"],
+                    "expected_impact": "Cool-down of the 4 most recent threads in 72h"
+                },
+                {
+                    "action": "Pre-emptive competitor watch briefing (Esselunga, Conad)",
+                    "owner": "Intelligence + Comms",
+                    "timeframe_h": 48,
+                    "rationale": "Forecast indicates a week-3 peak with competitor mainstream coverage. Anticipate the strategic response.",
+                    "kpi_target": "Structured response ready by week 2",
+                    "priority": "medium",
+                    "targets_drivers": [],
+                    "expected_impact": "Competitor narrative response time reduced by 5 days"
+                }
+            ]
+        },
+        "scenarios": {
+            "horizon_weeks": 4,
+            "model": "gpt-4o (demo)",
+            "confidence": 0.78,
+            "scenarios": [
+                {
+                    "label": "best",
+                    "title": "ESG becomes Verdaia's 2026 narrative pillar",
+                    "probability": 0.28,
+                    "narrative": "The independent audit defuses greenwashing within 10 days. The 'Accessible ESG' campaign reconciles the family segment. LinkedIn amplifies organically. Verdaia becomes an EY-ESG case study and an industry benchmark. Mention volume +35% in 4 weeks with sentiment >+0.35.",
+                    "drivers": [
+                        "Verifiable traceability",
+                        "LinkedIn B2B opportunity"
+                    ],
+                    "early_signals": [
+                        "Greenwashing sentiment > −0.40 within 7d",
+                        "Mainstream article (Sole24Ore, Repubblica) cites the audit",
+                        "≥3 LinkedIn influencers post organically"
+                    ]
+                },
+                {
+                    "label": "base",
+                    "title": "Mixed result, fragmented narrative",
+                    "probability": 0.52,
+                    "narrative": "The audit reduces but does not extinguish greenwashing. The 'Accessible ESG' campaign has limited traction. LinkedIn stays positive but niche. Volume +18-22%, sentiment stable at +0.20. Verdaia keeps its base but does not gain a differentiating position.",
+                    "drivers": [
+                        "Resistance to premium pricing",
+                        "Verifiable traceability"
+                    ],
+                    "early_signals": [
+                        "Premium-price sentiment from −0.31 to −0.20 in 14d",
+                        "Greenwashing mentions stable (no escalation, no collapse)",
+                        "Families 35-55 NPS unchanged"
+                    ]
+                },
+                {
+                    "label": "worst",
+                    "title": "Greenwashing crisis escalates",
+                    "probability": 0.2,
+                    "narrative": "The audit is challenged on methodology. A second internal whistleblower fuels the Reddit threads. Mainstream media cover the controversy. Price-sensitive families associate ESG with a masked price increase. Volume +40% but sentiment collapses to −0.10. Embryonic boycott.",
+                    "drivers": [
+                        "Greenwashing risk",
+                        "Resistance to premium pricing"
+                    ],
+                    "early_signals": [
+                        "Greenwashing sentiment < −0.70 within 5d",
+                        "#BoycottVerdaia hashtag trending top-50 Italy",
+                        "Public resignations or whistleblowing internally"
+                    ]
+                }
+            ]
+        },
+        "volume_forecast": {
+            "method": "holt_winters",
+            "history_weeks": 12,
+            "horizon_weeks": 4,
+            "notes": "Additive Holt-Winters with weekly seasonality. Peak forecast in week 3 (competitor coverage).",
+            "historical": [
+                {
+                    "date": "2026-02-23",
+                    "yhat": 412,
+                    "yhat_lower": 380,
+                    "yhat_upper": 444
+                },
+                {
+                    "date": "2026-03-02",
+                    "yhat": 456,
+                    "yhat_lower": 421,
+                    "yhat_upper": 491
+                },
+                {
+                    "date": "2026-03-09",
+                    "yhat": 489,
+                    "yhat_lower": 452,
+                    "yhat_upper": 526
+                },
+                {
+                    "date": "2026-03-16",
+                    "yhat": 521,
+                    "yhat_lower": 483,
+                    "yhat_upper": 559
+                },
+                {
+                    "date": "2026-03-23",
+                    "yhat": 498,
+                    "yhat_lower": 461,
+                    "yhat_upper": 535
+                },
+                {
+                    "date": "2026-03-30",
+                    "yhat": 534,
+                    "yhat_lower": 495,
+                    "yhat_upper": 573
+                },
+                {
+                    "date": "2026-04-06",
+                    "yhat": 572,
+                    "yhat_lower": 530,
+                    "yhat_upper": 614
+                },
+                {
+                    "date": "2026-04-13",
+                    "yhat": 618,
+                    "yhat_lower": 574,
+                    "yhat_upper": 662
+                },
+                {
+                    "date": "2026-04-20",
+                    "yhat": 685,
+                    "yhat_lower": 637,
+                    "yhat_upper": 733
+                },
+                {
+                    "date": "2026-04-27",
+                    "yhat": 742,
+                    "yhat_lower": 691,
+                    "yhat_upper": 793
+                },
+                {
+                    "date": "2026-05-04",
+                    "yhat": 798,
+                    "yhat_lower": 744,
+                    "yhat_upper": 852
+                },
+                {
+                    "date": "2026-05-11",
+                    "yhat": 856,
+                    "yhat_lower": 798,
+                    "yhat_upper": 914
+                }
+            ],
+            "forecast": [
+                {
+                    "date": "2026-05-18",
+                    "yhat": 912,
+                    "yhat_lower": 832,
+                    "yhat_upper": 992
+                },
+                {
+                    "date": "2026-05-25",
+                    "yhat": 974,
+                    "yhat_lower": 879,
+                    "yhat_upper": 1069
+                },
+                {
+                    "date": "2026-06-01",
+                    "yhat": 1082,
+                    "yhat_lower": 962,
+                    "yhat_upper": 1202
+                },
+                {
+                    "date": "2026-06-08",
+                    "yhat": 1045,
+                    "yhat_lower": 912,
+                    "yhat_upper": 1178
+                }
+            ]
+        },
+        "simulation": {
+            "profiles_count": 120,
+            "total_actions": 4127,
+            "actions_by_type": {
+                "refresh": 1840,
+                "do_nothing": 412,
+                "like_post": 1024,
+                "dislike_post": 187,
+                "create_comment": 487,
+                "create_post": 142,
+                "sign_up": 35
+            },
+            "sample_posts": [
+                {
+                    "post_id": 1,
+                    "user_id": 12,
+                    "content": "I just scanned the QR on a Verdaia pasta pack: it showed me the mill in Puglia with 2026 photos. This is real ESG, not slides."
+                },
+                {
+                    "post_id": 2,
+                    "user_id": 47,
+                    "content": "Dear Verdaia, +4% on premium products is the best way to send families straight to Lidl. Think about it."
+                },
+                {
+                    "post_id": 3,
+                    "user_id": 88,
+                    "content": "Verdaia's traceability rollout: every product, every supplier, audited annually. Italian retail finally catching up to Nordics."
+                },
+                {
+                    "post_id": 4,
+                    "user_id": 23,
+                    "content": "Standard greenwashing. Same playbook as Esselunga 2023. Change the marketing, not the warehouse."
+                },
+                {
+                    "post_id": 5,
+                    "user_id": 105,
+                    "content": "I worked 8 years at Verdaia, I'm telling you the traceability is real. It's a serious change, give it time."
+                },
+                {
+                    "post_id": 6,
+                    "user_id": 64,
+                    "content": "Serious question: why isn't the ESG surcharge applied to the Verdaia economy line too? Zero transparency."
+                },
+                {
+                    "post_id": 7,
+                    "user_id": 31,
+                    "content": "As an ESG analyst: Verdaia's move is the most credible Italian retail decision in the last 3 years. Verifiable disclosure."
+                }
+            ],
+            "sample_comments": [
+                {
+                    "post_id": 1,
+                    "user_id": 49,
+                    "content": "Agree. Esselunga says the same things but their QR doesn't work."
+                },
+                {
+                    "post_id": 1,
+                    "user_id": 73,
+                    "content": "Yeah but how much does that pasta cost? €1.80 vs €0.99 a year ago."
+                },
+                {
+                    "post_id": 2,
+                    "user_id": 14,
+                    "content": "Exactly. Accessible ESG or it's not ESG, it's marketing for the wealthy."
+                },
+                {
+                    "post_id": 2,
+                    "user_id": 92,
+                    "content": "Verdaia should run two price lists: ESG standard and ESG premium. Consumer choice."
+                },
+                {
+                    "post_id": 4,
+                    "user_id": 17,
+                    "content": "Show us the data instead of shooting blanks. The sustainability report is public."
+                },
+                {
+                    "post_id": 4,
+                    "user_id": 81,
+                    "content": "Report done by consultants paid by Verdaia, doesn't count."
+                },
+                {
+                    "post_id": 5,
+                    "user_id": 38,
+                    "content": "Thanks for the inside testimony. Worth more than a thousand press releases."
+                },
+                {
+                    "post_id": 7,
+                    "user_id": 102,
+                    "content": "Curious to see if it becomes an industry standard or stays an exception."
+                }
+            ],
+            "profiles_preview": [
+                {
+                    "user_id": 12,
+                    "username": "marta_milano",
+                    "name": "Marta Bianchi",
+                    "age": 38,
+                    "country": "IT",
+                    "profession": "Teacher",
+                    "bio": "Family, sustainability, honest prices.",
+                    "interested_topics": [
+                        "Supply-chain traceability",
+                        "Organic products"
+                    ]
+                },
+                {
+                    "user_id": 47,
+                    "username": "giorgio_padova",
+                    "name": "Giorgio Marchetti",
+                    "age": 52,
+                    "country": "IT",
+                    "profession": "Metalworker",
+                    "bio": "Shopping for 5, every cent counts.",
+                    "interested_topics": ["Premium price", "Loyalty card"]
+                },
+                {
+                    "user_id": 88,
+                    "username": "sarah_esg_finance",
+                    "name": "Sarah Kim",
+                    "age": 34,
+                    "country": "UK",
+                    "profession": "ESG analyst",
+                    "bio": "Sustainable finance · ex-Bloomberg · views my own.",
+                    "interested_topics": [
+                        "Supply-chain traceability",
+                        "Carbon footprint",
+                        "ESG communication"
+                    ]
+                },
+                {
+                    "user_id": 23,
+                    "username": "luca_skeptic",
+                    "name": "Luca Rossi",
+                    "age": 29,
+                    "country": "IT",
+                    "profession": "Developer",
+                    "bio": "Distrust marketing, read the financials.",
+                    "interested_topics": ["Greenwashing", "ESG communication"]
+                },
+                {
+                    "user_id": 105,
+                    "username": "annaverdaia_8anni",
+                    "name": "Anna P.",
+                    "age": 46,
+                    "country": "IT",
+                    "profession": "Ex retail employee",
+                    "bio": "8 years at Verdaia, now HR consulting.",
+                    "interested_topics": [
+                        "Labour & suppliers",
+                        "Supply-chain traceability"
+                    ]
+                },
+                {
+                    "user_id": 64,
+                    "username": "federico_genz",
+                    "name": "Federico T.",
+                    "age": 23,
+                    "country": "IT",
+                    "profession": "Economics student",
+                    "bio": "Gen Z, vegan, low-budget.",
+                    "interested_topics": [
+                        "Sustainable packaging",
+                        "Premium price"
+                    ]
+                },
+                {
+                    "user_id": 31,
+                    "username": "esg_outlook_it",
+                    "name": "Davide Conti",
+                    "age": 41,
+                    "country": "IT",
+                    "profession": "Sustainability consultant",
+                    "bio": "I help retailers NOT do greenwashing.",
+                    "interested_topics": [
+                        "Supply-chain traceability",
+                        "ESG communication"
+                    ]
+                }
+            ],
+            "zep": {
+                "status": "ok",
+                "graph_id": "esg-retailer-kg",
+                "facts_registered": 247,
+                "graph_preview": {
+                    "graph_id": "esg-retailer-kg",
+                    "nodes": [
+                        {
+                            "id": "brand:verdaia",
+                            "label": "Verdaia Foods",
+                            "type": "Brand",
+                            "weight": 100,
+                            "sentiment": 0.18
+                        },
+                        {
+                            "id": "competitor:esselunga",
+                            "label": "Esselunga",
+                            "type": "Competitor",
+                            "weight": 42,
+                            "sentiment": -0.12
+                        },
+                        {
+                            "id": "competitor:conad",
+                            "label": "Conad",
+                            "type": "Competitor",
+                            "weight": 31,
+                            "sentiment": 0.04
+                        },
+                        {
+                            "id": "competitor:lidl",
+                            "label": "Lidl",
+                            "type": "Competitor",
+                            "weight": 38,
+                            "sentiment": 0.21
+                        },
+                        {
+                            "id": "topic:tracciabilita",
+                            "label": "Supply-chain traceability",
+                            "type": "Topic",
+                            "weight": 91,
+                            "sentiment": 0.52
+                        },
+                        {
+                            "id": "topic:prezzo",
+                            "label": "Premium price",
+                            "type": "Topic",
+                            "weight": 80,
+                            "sentiment": -0.31
+                        },
+                        {
+                            "id": "topic:greenwashing",
+                            "label": "Greenwashing",
+                            "type": "Risk",
+                            "weight": 64,
+                            "sentiment": -0.62
+                        },
+                        {
+                            "id": "topic:packaging",
+                            "label": "Sustainable packaging",
+                            "type": "Topic",
+                            "weight": 49,
+                            "sentiment": 0.41
+                        },
+                        {
+                            "id": "topic:linkedin",
+                            "label": "LinkedIn ESG",
+                            "type": "Opportunity",
+                            "weight": 46,
+                            "sentiment": 0.48
+                        },
+                        {
+                            "id": "segment:famiglie",
+                            "label": "Families 35-55",
+                            "type": "Segment",
+                            "weight": 76,
+                            "sentiment": 0.12
+                        },
+                        {
+                            "id": "segment:genz",
+                            "label": "Gen Z urban",
+                            "type": "Segment",
+                            "weight": 54,
+                            "sentiment": 0.28
+                        },
+                        {
+                            "id": "segment:senior",
+                            "label": "Seniors 55+",
+                            "type": "Segment",
+                            "weight": 38,
+                            "sentiment": -0.08
+                        },
+                        {
+                            "id": "platform:reddit",
+                            "label": "Reddit r/Italy",
+                            "type": "Platform",
+                            "weight": 35,
+                            "sentiment": -0.18
+                        },
+                        {
+                            "id": "platform:linkedin",
+                            "label": "LinkedIn",
+                            "type": "Platform",
+                            "weight": 46,
+                            "sentiment": 0.48
+                        },
+                        {
+                            "id": "actor:whistleblower",
+                            "label": "Whistleblower ex-employee",
+                            "type": "Actor",
+                            "weight": 22,
+                            "sentiment": -0.55
+                        }
+                    ],
+                    "links": [
+                        {
+                            "source": "brand:verdaia",
+                            "target": "topic:tracciabilita",
+                            "type": "promotes"
+                        },
+                        {
+                            "source": "brand:verdaia",
+                            "target": "topic:prezzo",
+                            "type": "affected_by"
+                        },
+                        {
+                            "source": "brand:verdaia",
+                            "target": "topic:greenwashing",
+                            "type": "exposed_to"
+                        },
+                        {
+                            "source": "brand:verdaia",
+                            "target": "topic:packaging",
+                            "type": "promotes"
+                        },
+                        {
+                            "source": "brand:verdaia",
+                            "target": "topic:linkedin",
+                            "type": "amplified_on"
+                        },
+                        {
+                            "source": "competitor:esselunga",
+                            "target": "topic:greenwashing",
+                            "type": "associated_with"
+                        },
+                        {
+                            "source": "competitor:lidl",
+                            "target": "topic:prezzo",
+                            "type": "benefits_from"
+                        },
+                        {
+                            "source": "segment:famiglie",
+                            "target": "topic:prezzo",
+                            "type": "concerned_by"
+                        },
+                        {
+                            "source": "segment:famiglie",
+                            "target": "topic:tracciabilita",
+                            "type": "values"
+                        },
+                        {
+                            "source": "segment:genz",
+                            "target": "topic:packaging",
+                            "type": "values"
+                        },
+                        {
+                            "source": "segment:genz",
+                            "target": "topic:greenwashing",
+                            "type": "skeptical_of"
+                        },
+                        {
+                            "source": "segment:senior",
+                            "target": "topic:prezzo",
+                            "type": "concerned_by"
+                        },
+                        {
+                            "source": "platform:reddit",
+                            "target": "topic:greenwashing",
+                            "type": "amplifies"
+                        },
+                        {
+                            "source": "platform:linkedin",
+                            "target": "topic:tracciabilita",
+                            "type": "amplifies"
+                        },
+                        {
+                            "source": "actor:whistleblower",
+                            "target": "topic:greenwashing",
+                            "type": "fuels"
+                        },
+                        {
+                            "source": "competitor:conad",
+                            "target": "brand:verdaia",
+                            "type": "competes_with"
+                        },
+                        {
+                            "source": "competitor:esselunga",
+                            "target": "brand:verdaia",
+                            "type": "competes_with"
+                        }
+                    ]
+                }
+            },
+            "zep_qa": {
+                "status": "ok",
+                "model": "gpt-4o (demo)",
+                "questions": [
+                    {
+                        "question": "What is the main reputational risk of the ESG launch?",
+                        "answer": "The greenwashing narrative, accounting for 14.7% of mentions with an average sentiment of −0.62. It is fuelled by 6 viral threads on Reddit r/Italy and by a former employee challenging the official claims.",
+                        "facts": [
+                            "topic:greenwashing — sentiment −0.62, 1287 mentions",
+                            "platform:reddit — amplifies topic:greenwashing",
+                            "actor:whistleblower — fuels topic:greenwashing"
+                        ],
+                        "fact_count": 3
+                    },
+                    {
+                        "question": "Which segment is most sensitive to the premium price?",
+                        "answer": "Families 35-55 (38% of the base) and Seniors 55+ (19%) are the segments most resistant to the +4% price reposition. Sentiment on the price topic is −0.31 and is concentrated on Twitter/X and Reddit.",
+                        "facts": [
+                            "segment:famiglie — concerned_by topic:prezzo, weight 76",
+                            "segment:senior — concerned_by topic:prezzo, weight 38",
+                            "competitor:lidl — benefits_from topic:prezzo"
+                        ],
+                        "fact_count": 3
+                    },
+                    {
+                        "question": "Where should we amplify the positive narrative?",
+                        "answer": "LinkedIn shows the highest sentiment (+0.48) and hosts ESG analysts citing Verdaia as a case study. It is the platform with the best ROI for organic B2B amplification in the next 14 days.",
+                        "facts": [
+                            "platform:linkedin — sentiment +0.48",
+                            "platform:linkedin — amplifies topic:tracciabilita",
+                            "topic:linkedin — Opportunity, weight 46"
+                        ],
+                        "fact_count": 3
+                    }
+                ]
+            },
+            "prediction_text": "Over the next 14 days the system forecasts: (1) mention volume growing +18-25% with a week-3 peak; (2) greenwashing sentiment slightly improving if the audit is published within 7d, significantly worsening otherwise; (3) confirmed organic activation on LinkedIn; (4) moderate-to-high Reddit escalation risk unless a technical dialogue channel is opened."
+        },
+        "ontology": {
+            "status": "ok",
+            "model": "gpt-4o (demo)",
+            "analysis_summary": "Eight key entities extracted from the dataset, with relations mapping the brand-competitor-segment-platform dynamic. The presence of a whistleblower actor and explicit risk topics indicates a polarized context that requires active management.",
+            "entity_types": [
+                {
+                    "name": "Brand",
+                    "description": "Brand under analysis",
+                    "role_in_simulation": "Central subject",
+                    "examples": ["Verdaia Foods"]
+                },
+                {
+                    "name": "Competitor",
+                    "description": "Competing retail brands",
+                    "role_in_simulation": "Benchmark and competitive context",
+                    "examples": ["Esselunga", "Conad", "Lidl"]
+                },
+                {
+                    "name": "Topic",
+                    "description": "Emerging narrative themes",
+                    "role_in_simulation": "Sentiment drivers",
+                    "examples": [
+                        "Supply-chain traceability",
+                        "Premium price",
+                        "Sustainable packaging"
+                    ]
+                },
+                {
+                    "name": "Risk",
+                    "description": "Topics with negative reputational potential",
+                    "role_in_simulation": "Critical watchpoints",
+                    "examples": ["Greenwashing"]
+                },
+                {
+                    "name": "Opportunity",
+                    "description": "Topics with untapped upside",
+                    "role_in_simulation": "Leverage areas",
+                    "examples": ["LinkedIn ESG"]
+                },
+                {
+                    "name": "Segment",
+                    "description": "Demographic/behavioural clusters",
+                    "role_in_simulation": "Action targeting and tone segmentation",
+                    "examples": ["Families 35-55", "Gen Z urban", "Seniors 55+"]
+                },
+                {
+                    "name": "Platform",
+                    "description": "Conversation channels",
+                    "role_in_simulation": "Distribution and amplification",
+                    "examples": ["Reddit r/Italy", "LinkedIn", "Twitter/X"]
+                },
+                {
+                    "name": "Actor",
+                    "description": "Identifiable people with an influential voice",
+                    "role_in_simulation": "Narrative catalysts",
+                    "examples": ["Whistleblower ex-employee"]
+                }
+            ],
+            "edge_types": [
+                {
+                    "name": "promotes",
+                    "description": "Brand pushes a narrative on a topic",
+                    "source_targets": [{ "source": "Brand", "target": "Topic" }]
+                },
+                {
+                    "name": "exposed_to",
+                    "description": "Brand is vulnerable to a risk topic",
+                    "source_targets": [{ "source": "Brand", "target": "Risk" }]
+                },
+                {
+                    "name": "concerned_by",
+                    "description": "Segment is concerned by a topic",
+                    "source_targets": [
+                        { "source": "Segment", "target": "Topic" }
+                    ]
+                },
+                {
+                    "name": "amplifies",
+                    "description": "Platform increases topic visibility",
+                    "source_targets": [
+                        { "source": "Platform", "target": "Topic" }
+                    ]
+                },
+                {
+                    "name": "competes_with",
+                    "description": "Direct competitive relation",
+                    "source_targets": [
+                        { "source": "Competitor", "target": "Brand" }
+                    ]
+                },
+                {
+                    "name": "fuels",
+                    "description": "Actor fuels a topic",
+                    "source_targets": [{ "source": "Actor", "target": "Risk" }]
+                }
+            ]
+        }
+    }
+}

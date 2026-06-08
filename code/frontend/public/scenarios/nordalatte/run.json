@@ -1,0 +1,1305 @@
+{
+    "run_id": "nordalatte",
+    "status": "succeeded",
+    "mode": "full",
+    "brand": "NordaLatte",
+    "source_type": "document",
+    "source_filename": "nordalatte_recall_brief.pdf",
+    "enable_simulation": true,
+    "created_at": "2026-03-24T18:00:00Z",
+    "updated_at": "2026-03-24T18:42:00Z",
+    "progress": { "step": "completed" },
+    "scenario_brief": "Brief crisis-recall NordaLatte: misura il danno reputazionale residuo al 24 marzo, identifica i driver narrativi che continuano a vivere oltre la crisi acuta, e proponi un piano d'azione 72h focalizzato su recupero fiducia segmento famiglie con bambini.",
+    "simulation_status": "succeeded",
+    "simulation_progress": { "step": "completed" },
+    "result": {
+        "mode": "full",
+        "warnings": [],
+        "brand_seed": {
+            "brand": "NordaLatte",
+            "market": "IT",
+            "language": "it",
+            "monitoring_window_days": 22,
+            "total_mentions": 1247,
+            "overall_sentiment": -0.12,
+            "source": "document",
+            "segments": [
+                {
+                    "name": "Famiglie con bambini 0-6 anni",
+                    "weight": 0.33,
+                    "description": "Segmento storicamente core target di CremaPiù, oggi epicentro della perdita di fiducia post-richiamo",
+                    "sentiment_baseline": "negative",
+                    "sample_quotes": [
+                        "Compro NordaLatte da 15 anni, mia figlia mangia solo CremaPiù. Stamattina ho buttato 4 vasetti. La fiducia non si ricompra con un comunicato.",
+                        "Ma scherziamo? Il richiamo lo apprendo da un post su FB, non da NordaLatte. Zero email, zero notifica nell'app.",
+                        "Mia bambina ha 18 mesi. Listeria. Non riesco a leggere altro. Andiamo da un'altra marca, anche se costa di più."
+                    ]
+                },
+                {
+                    "name": "Consumatori informati",
+                    "weight": 0.33,
+                    "description": "Segmento attento alla trasparenza nella supply chain, chiede dati ATS pubblici",
+                    "sentiment_baseline": "mixed",
+                    "sample_quotes": [
+                        "La diretta è stata bella ma resta la domanda: come è arrivata la Listeria nello stabilimento? Vogliamo il report ATS pubblico, non il comunicato congiunto.",
+                        "Apprezzo il video-tour di Lodi ma servono numeri: tamponi ambientali, frequenza dei controlli, audit di terza parte. Tutto il resto è marketing.",
+                        "Il #FilieraTrasparente parte bene. Ora pubblicateli davvero, ogni mese, i risultati dei tamponi. Senza eccezioni."
+                    ]
+                },
+                {
+                    "name": "Stakeholder professionali",
+                    "weight": 0.17,
+                    "description": "Analisti retail, giornalisti food trade, consulenti crisis-management interessati alla leadership dell'AD",
+                    "sentiment_baseline": "positive",
+                    "sample_quotes": [
+                        "Ho ascoltato la diretta di Manzoni. Onesta, niente legalese, niente colpa del fornitore. Ha detto «abbiamo sbagliato a comunicare tardi». Punto. Cambio idea sul brand.",
+                        "Case study di crisis communication da manuale: 72h di silenzio, poi diretta del CEO senza filtri PR. Studieremo questo caso a Bocconi nei prossimi mesi.",
+                        "NordaLatte ha fatto quello che pochissimi CEO italiani fanno: si è preso la colpa pubblicamente. Vediamo se le azioni seguono le parole."
+                    ]
+                },
+                {
+                    "name": "Opportunisti",
+                    "weight": 0.17,
+                    "description": "Competitor del segmento yogurt funzionale, content creator food che cavalcano la crisi",
+                    "sentiment_baseline": "neutral",
+                    "sample_quotes": [
+                        "Anche noi facciamo yogurt magro funzionale. Anche noi tracciamo lotto per lotto. Anche noi pubblichiamo i report ATS in tempo reale. #LatteVero",
+                        "Ricordatevi che NordaLatte non è l'unico produttore italiano. Ci sono cooperative bio-certificate che lavorano così da 20 anni e nessuno le degna di sguardo.",
+                        "Promo 2x1 sullo yogurt CremaSana per tutta la settimana. Tracciabilità garantita da app blockchain. Nessuna Listeria nei nostri stabilimenti dal 2018."
+                    ]
+                }
+            ],
+            "topics": [
+                {
+                    "name": "Sicurezza alimentare percepita",
+                    "mentions": 412,
+                    "sentiment_score": -0.54,
+                    "sample_quotes": [
+                        "Non mi fido più di NordaLatte per i miei figli, e questo non lo riscrivete con un'inserzione su Instagram.",
+                        "Listeria nello yogurt per bambini. Non c'è formula stampa che possa cancellare questa parola dalla mia memoria.",
+                        "Per anni avete venduto «CremaPiù = il primo yogurt del tuo bambino». Adesso quel posizionamento vi si ritorce contro."
+                    ]
+                },
+                {
+                    "name": "Comunicazione di crisi (timing)",
+                    "mentions": 318,
+                    "sentiment_score": -0.38,
+                    "sample_quotes": [
+                        "NordaLatte ha tardato 72 ore a comunicare. Nel frattempo TikTok aveva già fatto il giro del mondo. Indifendibile.",
+                        "Non ho saputo nulla dalla fonte ufficiale fino a molto tempo dopo. Ho letto la notizia dalla pagina ATS, non dal brand.",
+                        "Quando il primo a parlare di voi è un meme su TikTok, avete già perso la partita comunicativa."
+                    ]
+                },
+                {
+                    "name": "Trasparenza filiera / supply chain",
+                    "mentions": 267,
+                    "sentiment_score": -0.21,
+                    "sample_quotes": [
+                        "Voglio sapere esattamente da dove viene il latte che dà mio figlio. Nome dell'allevatore, comune, frequenza dei controlli.",
+                        "NordaLatte non è stata trasparente sulla provenienza dei suoi prodotti. Il sito parla di «filiera 100% italiana» ma non c'è una mappa, non c'è un audit.",
+                        "Il video-tour di Lodi è un buon inizio. Pubblicate ora i tamponi ambientali settimanali. Tutti. Senza eccezioni."
+                    ]
+                },
+                {
+                    "name": "Leadership e accountability (AD)",
+                    "mentions": 190,
+                    "sentiment_score": 0.32,
+                    "sample_quotes": [
+                        "Manzoni si è preso la colpa. Niente «errore del fornitore», niente «procedure rispettate». Solo: «abbiamo sbagliato a comunicare tardi».",
+                        "La diretta dell'AD è stata onesta. Non ha letto un foglio, ha risposto alle domande sgradevoli. Rispetto.",
+                        "Carlo Manzoni in 40 minuti ha recuperato una parte di credibilità che la macchina PR aveva bruciato in 72 ore."
+                    ]
+                },
+                {
+                    "name": "Opportunismo competitor",
+                    "mentions": 60,
+                    "sentiment_score": 0.0,
+                    "sample_quotes": [
+                        "Anche noi facciamo yogurt magro funzionale. #LatteVero",
+                        "Cooperative bio-certificate lavorano così da 20 anni. Ora ve ne accorgete?",
+                        "Promo 2x1 sullo yogurt CremaSana. Tracciabilità blockchain. Nessuna Listeria dal 2018."
+                    ]
+                }
+            ],
+            "sentiment_breakdown": {
+                "positive": 0.18,
+                "neutral": 0.21,
+                "negative": 0.46,
+                "mixed": 0.15
+            },
+            "platforms": [
+                {
+                    "name": "Facebook IT",
+                    "count": 412,
+                    "share": 0.33,
+                    "sentiment": -0.31
+                },
+                {
+                    "name": "Instagram",
+                    "count": 287,
+                    "share": 0.23,
+                    "sentiment": -0.18
+                },
+                {
+                    "name": "TikTok",
+                    "count": 218,
+                    "share": 0.175,
+                    "sentiment": -0.42
+                },
+                {
+                    "name": "LinkedIn",
+                    "count": 162,
+                    "share": 0.13,
+                    "sentiment": 0.28
+                },
+                {
+                    "name": "Twitter/X IT",
+                    "count": 108,
+                    "share": 0.087,
+                    "sentiment": -0.22
+                },
+                {
+                    "name": "Stampa food-trade",
+                    "count": 60,
+                    "share": 0.048,
+                    "sentiment": 0.12
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Italia",
+                    "count": 1142,
+                    "share": 0.916,
+                    "sentiment": -0.14
+                },
+                {
+                    "name": "UK",
+                    "count": 47,
+                    "share": 0.038,
+                    "sentiment": 0.05
+                },
+                {
+                    "name": "Germania",
+                    "count": 32,
+                    "share": 0.026,
+                    "sentiment": -0.02
+                },
+                {
+                    "name": "Francia",
+                    "count": 18,
+                    "share": 0.014,
+                    "sentiment": 0.08
+                },
+                {
+                    "name": "Svizzera",
+                    "count": 8,
+                    "share": 0.006,
+                    "sentiment": -0.1
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2026-03-05",
+                    "label": "Comunicato ufficiale di richiamo",
+                    "mentions": 0,
+                    "note": "Pubblicato sul sito istituzionale alle 22:15"
+                },
+                {
+                    "date": "2026-03-06",
+                    "label": "Clip TikTok diventa virale",
+                    "mentions": 0,
+                    "note": "Madre brescia mostra vasetti CremaPiù richiamati"
+                },
+                {
+                    "date": "2026-03-08",
+                    "label": "Diretta LinkedIn dell'AD Carlo Manzoni",
+                    "mentions": 0,
+                    "note": "40 minuti senza filtri PR, Q&A aperta"
+                },
+                {
+                    "date": "2026-03-09",
+                    "label": "Comunicato congiunto ATS Milano",
+                    "mentions": 0,
+                    "note": "Conferma dei controlli ambientali in corso"
+                },
+                {
+                    "date": "2026-03-12",
+                    "label": "Articolo critico Dissapore",
+                    "mentions": 0,
+                    "note": "Pezzo lungo sulla cultura del rischio in azienda"
+                },
+                {
+                    "date": "2026-03-15",
+                    "label": "Avvio campagna #FilieraTrasparente",
+                    "mentions": 0,
+                    "note": "LinkedIn organico, primi 6 post dei responsabili stabilimento"
+                },
+                {
+                    "date": "2026-03-18",
+                    "label": "Rilascio video-tour stabilimento Lodi",
+                    "mentions": 0,
+                    "note": "12 minuti, ripresa in prima persona, accesso reparti"
+                },
+                {
+                    "date": "2026-03-22",
+                    "label": "Test di conferma negativi su tutti i quattordici lotti",
+                    "mentions": 0,
+                    "note": "Pubblicati i risultati dei tamponi ambientali settimanali"
+                },
+                {
+                    "date": "2026-03-24",
+                    "label": "Stabilizzazione del volume su livelli post-crisi",
+                    "mentions": 0,
+                    "note": "Residuo medio di 35-50 mention/settimana, baseline pre-crisi 80/sett"
+                }
+            ],
+            "volume_series_weekly": [
+                {
+                    "date": "2026-03-02",
+                    "label": "weekly_volume",
+                    "mentions": 486,
+                    "note": ""
+                },
+                {
+                    "date": "2026-03-09",
+                    "label": "weekly_volume",
+                    "mentions": 412,
+                    "note": ""
+                },
+                {
+                    "date": "2026-03-16",
+                    "label": "weekly_volume",
+                    "mentions": 238,
+                    "note": ""
+                },
+                {
+                    "date": "2026-03-23",
+                    "label": "weekly_volume",
+                    "mentions": 111,
+                    "note": ""
+                }
+            ]
+        },
+        "report_markdown": "# NordaLatte — Crisis-recall Listeria CremaPiù\n\n## Executive summary\n\nA 22 giorni dal richiamo dei quattordici lotti CremaPiù 0.1% lo stato della reputazione NordaLatte è **negativo ma in stabilizzazione**: 1.247 mention raccolte, sentiment medio **−0.12**, volume settimanale in decadimento (486 → 412 → 238 → 111) verso una baseline post-crisi stimata a **35-50 mention/settimana**, contro le 80/sett pre-crisi. La crisi acuta è esaurita ma due narrative restano vive: la perdita di fiducia delle famiglie con bambini (33% delle mention, sentiment −0.54 sul topic sicurezza alimentare) e la richiesta di trasparenza ATS che continua a generare engagement organico anche dopo la diretta dell'AD.\n\n## Driver osservati\n\n- **Sicurezza alimentare percepita** (412 mention, −0.54) — driver dominante, concentrato sul segmento famiglie. Le quote verbatim sono molto specifiche («ho buttato 4 vasetti», «mia figlia ha 18 mesi», «non riesco a leggere altro»). Il danno qui non si recupera con un'inserzione.\n- **Comunicazione di crisi — timing** (318 mention, −0.38) — il ritardo di 72 ore prima del primo comunicato è il singolo errore tattico più citato. La diretta dell'AD ha contenuto il danno ma non lo ha annullato.\n- **Trasparenza filiera / supply chain** (267 mention, −0.21) — il segmento consumatori informati ha trasformato la crisi in una richiesta strutturale: tamponi pubblici, audit di terza parte, mappa allevamenti. È la leva più redditizia per il recupero a 90 giorni.\n- **Leadership e accountability dell'AD** (190 mention, **+0.32**) — l'unico topic con sentiment positivo. La diretta LinkedIn di Carlo Manzoni è stata letta come gesto di accountability raro nel panorama del food italiano. Stakeholder professionali (analisti, giornalisti food trade) hanno cambiato opinione sul brand.\n- **Opportunismo competitor** (60 mention, 0.00) — pochissimo volume, basso impatto. Nessun competitor è riuscito a capitalizzare in modo strutturato.\n\n## Segmenti e tono\n\nIl **33%** delle mention proviene da **famiglie con bambini 0-6 anni** (sentiment negativo, core target storico di CremaPiù). Il **33%** da **consumatori informati** (sentiment misto, esigenti su trasparenza ATS). Il **17%** da **stakeholder professionali** (sentiment positivo grazie alla leadership dell'AD). Il **17%** da **opportunisti** (sentiment neutro, volume basso, scarso impatto narrativo).\n\n## Forecast (4 settimane)\n\nIl modello Holt damped con baseline floor a 35 mention/settimana proietta un assestamento progressivo del volume verso il regime post-crisi: **75 → 56 → 45 → 40** mention/settimana, con bande IC 95% in restringimento. La curva non collassa a zero perché il brand mantiene una conversazione organica residua superiore alle 35 mention/sett (livello pre-crisi: 80/sett). Il forecast presuppone l'assenza di nuovi eventi-shock — ad es. un secondo richiamo o uno whistleblower interno modificherebbero radicalmente lo scenario.\n\n## Piano d'azione (72h)\n\nIl piano operativo punta sui due driver con sentiment negativo più impattante: la perdita di fiducia delle famiglie e la richiesta di trasparenza. Le cinque azioni sono ordinate per priorità in base alla finestra temporale 24/48/72h e mappate sui topic narrativi attivi nel corpus.\n",
+        "kpi": {
+            "percentages_found": [
+                {
+                    "value": 33,
+                    "context": "Share del segmento famiglie con bambini 0-6 anni"
+                },
+                {
+                    "value": 18,
+                    "context": "Share di sentiment positivo a 22 giorni dal richiamo"
+                },
+                {
+                    "value": 46,
+                    "context": "Share di sentiment negativo a 22 giorni dal richiamo"
+                },
+                {
+                    "value": 77,
+                    "context": "Calo del volume settimanale tra la prima e la quarta settimana di osservazione"
+                }
+            ],
+            "timeframes_found": [
+                {
+                    "timeframe": "22 giorni",
+                    "text": "Finestra di osservazione dal primo comunicato di richiamo"
+                },
+                {
+                    "timeframe": "72h",
+                    "text": "Ritardo del primo comunicato — singolo errore tattico più citato"
+                },
+                {
+                    "timeframe": "72h",
+                    "text": "Orizzonte del piano d'azione tattico"
+                },
+                {
+                    "timeframe": "4 settimane",
+                    "text": "Orizzonte del forecast volume"
+                }
+            ],
+            "segments_mentioned": [
+                "Famiglie con bambini 0-6 anni",
+                "Consumatori informati",
+                "Stakeholder professionali",
+                "Opportunisti"
+            ],
+            "chapter_count": 6,
+            "predictive_conclusion_count": 8,
+            "blockquote_count": 21,
+            "word_count": 3240,
+            "quantitative_density_score": 0.82
+        },
+        "executive_summary": {
+            "summary_it": "Il richiamo Listeria sui 14 lotti CremaPiù 0.1% è esaurito nella fase acuta (volume in decadimento 486→111 mention/sett), ma lascia un danno reputazionale strutturale sul segmento famiglie con bambini (33% delle mention, sentiment −0.54 sulla sicurezza alimentare). La diretta LinkedIn dell'AD Manzoni ha generato l'unico topic positivo (+0.32) e ha cambiato opinione degli stakeholder professionali. La leva di recupero a 90 giorni è la trasparenza ATS pubblica, richiesta esplicitamente dai consumatori informati.",
+            "highlights": [
+                "Volume mention settimanale in stabilizzazione verso baseline post-crisi 35-50/sett (pre-crisi: 80/sett)",
+                "Diretta dell'AD Carlo Manzoni è l'unico topic con sentiment positivo (+0.32) e ha cambiato opinione degli stakeholder professionali",
+                "Il segmento famiglie con bambini (33%) ha quote molto specifiche e poco recuperabili con leve marketing tradizionali",
+                "I consumatori informati (33%) chiedono dato strutturale: tamponi ATS pubblici, audit di terza parte, mappa allevamenti",
+                "Nessun competitor è riuscito a capitalizzare la crisi in modo strutturato (60 mention totali, sentiment 0.00)"
+            ],
+            "warnings": [
+                "La perdita di fiducia sul segmento famiglie 0-6 anni rischia di trasformarsi in churn permanente se entro 14 giorni non arriva un'azione concreta diversa dalla comunicazione",
+                "Il timing-of-communication (72h di ritardo) è il singolo errore più citato e rimarrà un caso scolastico negativo per i prossimi 12-18 mesi se non viene riconosciuto pubblicamente"
+            ]
+        },
+        "scenario_drivers": {
+            "scenario_focus": "Recupero della fiducia del segmento famiglie con bambini dopo la crisi di NordaLatte",
+            "model": "gpt-4 (showcase)",
+            "confidence": 0.84,
+            "drivers": [
+                {
+                    "label": "Perdita di fiducia delle famiglie con bambini",
+                    "evidence_topic": "Sicurezza alimentare percepita",
+                    "mentions": 412,
+                    "sentiment": -0.54,
+                    "strength": "high",
+                    "rationale": "Driver dominante. Le quote del segmento famiglie sono molto specifiche, contengono numeri personali («15 anni di acquisti», «18 mesi», «4 vasetti buttati») e fanno leva sul posizionamento storico di CremaPiù come «primo yogurt del bambino». Non si recupera con leve marketing tradizionali: serve un'azione concreta che dimostri il cambiamento — un protocollo nuovo, un audit indipendente, una garanzia commerciale formale.",
+                    "sample_quotes": [
+                        "Compro NordaLatte da 15 anni, mia figlia mangia solo CremaPiù. Stamattina ho buttato 4 vasetti. La fiducia non si ricompra con un comunicato.",
+                        "Mia bambina ha 18 mesi. Listeria. Non riesco a leggere altro. Andiamo da un'altra marca, anche se costa di più.",
+                        "Per anni avete venduto «CremaPiù = il primo yogurt del tuo bambino». Adesso quel posizionamento vi si ritorce contro."
+                    ]
+                },
+                {
+                    "label": "Ritardo di comunicazione (72 ore di silenzio)",
+                    "evidence_topic": "Comunicazione di crisi (timing)",
+                    "mentions": 318,
+                    "sentiment": -0.38,
+                    "strength": "high",
+                    "rationale": "Il singolo errore tattico più citato. La clip TikTok virale del 6 marzo è arrivata 27 ore prima del primo comunicato ufficiale: ha imposto la narrativa al brand invece del contrario. La diretta dell'AD del 8 marzo ha contenuto il danno ma non lo ha annullato. Rimarrà un caso scolastico per i prossimi 12-18 mesi se non riconosciuto pubblicamente come errore di processo.",
+                    "sample_quotes": [
+                        "NordaLatte ha tardato 72 ore a comunicare. Nel frattempo TikTok aveva già fatto il giro del mondo. Indifendibile.",
+                        "Ma scherziamo? Il richiamo lo apprendo da un post su FB, non da NordaLatte. Zero email, zero notifica nell'app.",
+                        "Quando il primo a parlare di voi è un meme su TikTok, avete già perso la partita comunicativa."
+                    ]
+                },
+                {
+                    "label": "Domanda di trasparenza ATS strutturata",
+                    "evidence_topic": "Trasparenza filiera / supply chain",
+                    "mentions": 267,
+                    "sentiment": -0.21,
+                    "strength": "high",
+                    "rationale": "I consumatori informati hanno trasformato la crisi in una richiesta strutturale e ricorrente: pubblicazione mensile dei tamponi ATS, audit di terza parte, mappa pubblica degli allevamenti. È la leva più redditizia per il recupero a 90 giorni perché trasforma un costo di compliance in un asset di brand. Il sentiment misto (−0.21) indica che la richiesta è razionale, non isterica.",
+                    "sample_quotes": [
+                        "La diretta è stata bella ma resta la domanda: come è arrivata la Listeria nello stabilimento? Vogliamo il report ATS pubblico, non il comunicato congiunto.",
+                        "Apprezzo il video-tour di Lodi ma servono numeri: tamponi ambientali, frequenza dei controlli, audit di terza parte. Tutto il resto è marketing.",
+                        "Il #FilieraTrasparente parte bene. Ora pubblicateli davvero, ogni mese, i risultati dei tamponi. Senza eccezioni."
+                    ]
+                },
+                {
+                    "label": "Leadership accountability dell'AD",
+                    "evidence_topic": "Leadership e accountability (AD)",
+                    "mentions": 190,
+                    "sentiment": 0.32,
+                    "strength": "medium",
+                    "rationale": "L'unico topic con sentiment positivo. La diretta LinkedIn del 8 marzo è stata letta come un gesto di accountability raro nel food italiano. Il punto narrativo che ha funzionato è il «abbiamo sbagliato a comunicare tardi» — un'ammissione di errore tattico, senza scaricare la colpa sul fornitore. Va consolidato con azioni che seguono le parole, altrimenti si trasforma in marketing.",
+                    "sample_quotes": [
+                        "Ho ascoltato la diretta di Manzoni. Onesta, niente legalese, niente colpa del fornitore. Ha detto «abbiamo sbagliato a comunicare tardi». Punto. Cambio idea sul brand.",
+                        "Case study di crisis communication da manuale: 72h di silenzio, poi diretta del CEO senza filtri PR. Studieremo questo caso a Bocconi nei prossimi mesi.",
+                        "Carlo Manzoni in 40 minuti ha recuperato una parte di credibilità che la macchina PR aveva bruciato in 72 ore."
+                    ]
+                },
+                {
+                    "label": "Opportunismo competitor (bassa intensità)",
+                    "evidence_topic": "Opportunismo competitor",
+                    "mentions": 60,
+                    "sentiment": 0.0,
+                    "strength": "low",
+                    "rationale": "Driver volutamente segnalato come basso. Nonostante alcuni competitor abbiano tentato di capitalizzare con hashtag (#LatteVero) o promo lampo, nessuno è riuscito a strutturare una narrativa di lungo periodo. Il segmento «opportunisti» pesa solo il 4.8% delle mention e ha sentiment neutro: non rappresenta una minaccia competitiva acuta, ma è un sintomo da monitorare se la crisi si ripete.",
+                    "sample_quotes": [
+                        "Anche noi facciamo yogurt magro funzionale. Anche noi tracciamo lotto per lotto. Anche noi pubblichiamo i report ATS in tempo reale. #LatteVero",
+                        "Promo 2x1 sullo yogurt CremaSana per tutta la settimana. Tracciabilità garantita da app blockchain. Nessuna Listeria nei nostri stabilimenti dal 2018."
+                    ]
+                }
+            ]
+        },
+        "action_plan": {
+            "horizon_hours": 72,
+            "actions": [
+                {
+                    "action": "Pubblicare il protocollo ATS «Famiglie Sicure»: tamponi ambientali settimanali su tutti gli stabilimenti, dashboard pubblica con risultati grezzi",
+                    "owner": "ESG Office + Direzione Stabilimenti",
+                    "timeframe_h": 24,
+                    "rationale": "Trasforma la richiesta strutturale dei consumatori informati in un asset di brand. Le famiglie vogliono evidenza, non rassicurazioni: la dashboard pubblica è la singola leva che parla a entrambi i segmenti negativi (famiglie + informati) con un'azione concreta misurabile dal pubblico.",
+                    "kpi_target": "Sentiment topic 'Trasparenza filiera' da −0.21 a +0.10 entro 21 giorni",
+                    "priority": "high",
+                    "targets_drivers": [
+                        "Domanda di trasparenza ATS strutturata",
+                        "Perdita di fiducia delle famiglie con bambini"
+                    ],
+                    "expected_impact": "Riposizionamento del brand da «richiamato» a «più trasparente del settore»; sblocca la copertura mainstream positiva (Sole24Ore, Repubblica food)"
+                },
+                {
+                    "action": "Garanzia commerciale CremaPiù: rimborso completo per ogni vasetto richiamato + voucher famiglia su prodotti dell'infanzia",
+                    "owner": "Customer Care + Commerciale",
+                    "timeframe_h": 48,
+                    "rationale": "Le famiglie che hanno «buttato 4 vasetti» chiedono prima di tutto un riconoscimento materiale del danno. Il voucher non è un'inserzione: è il segnale che il brand assume il costo della crisi sul proprio bilancio invece che chiedere al cliente di dimenticare. Costo stimato 180-220k€, impatto narrativo sproporzionato.",
+                    "kpi_target": "Recupero NPS segmento famiglie da −18 a 0 in 30 giorni; tasso di redemption voucher ≥35%",
+                    "priority": "high",
+                    "targets_drivers": [
+                        "Perdita di fiducia delle famiglie con bambini"
+                    ],
+                    "expected_impact": "Conversione del danno reputazionale in un touchpoint diretto con il segmento più colpito; riduzione del churn previsto del 40-50%"
+                },
+                {
+                    "action": "Mea culpa pubblico sul timing-of-communication: lettera aperta dell'AD su Corriere e LinkedIn che riconosce le 72h di silenzio come errore di processo, non di valutazione",
+                    "owner": "AD + Comunicazione Corporate",
+                    "timeframe_h": 24,
+                    "rationale": "Il ritardo di 72 ore è il singolo punto narrativo più citato in negativo. Riconoscerlo pubblicamente come errore di processo (e non come scelta) chiude il loop aperto dalla diretta LinkedIn dell'8 marzo. Senza questo passaggio il caso diventa scolastico negativo per i prossimi 12-18 mesi; con questo passaggio diventa scolastico positivo di crisis communication.",
+                    "kpi_target": "Sentiment topic 'Comunicazione di crisi (timing)' da −0.38 a −0.10 entro 14 giorni",
+                    "priority": "high",
+                    "targets_drivers": [
+                        "Ritardo di comunicazione (72 ore di silenzio)",
+                        "Leadership accountability dell'AD"
+                    ],
+                    "expected_impact": "Consolidamento della leadership di Manzoni come asset reputazionale; riduzione della probabilità che il caso venga citato in negativo nei prossimi 18 mesi"
+                },
+                {
+                    "action": "Programma «Audit aperto»: invito a 5 testate food (Dissapore, Gambero Rosso, Il Fatto Alimentare, Repubblica Sapori, Sole24Ore) per visita libera agli stabilimenti senza minutaggio e senza approvazione preventiva delle uscite",
+                    "owner": "PR + Direzione Stabilimenti",
+                    "timeframe_h": 72,
+                    "rationale": "Il video-tour del 18 marzo è stato apprezzato ma è autoreferenziale. L'audit aperto a giornalisti food (anche critici come Dissapore) trasforma la trasparenza da claim a evidenza. Rischio reputazionale presente ma calcolato: se gli stabilimenti sono davvero a posto, la copertura sarà a favore; se non lo sono, è meglio saperlo prima del prossimo richiamo.",
+                    "kpi_target": "Almeno 3 articoli food critici con tono complessivamente positivo entro 30 giorni",
+                    "priority": "medium",
+                    "targets_drivers": [
+                        "Domanda di trasparenza ATS strutturata"
+                    ],
+                    "expected_impact": "Costruzione di un earned-media positivo che vale 4-6× rispetto a una campagna pubblicitaria equivalente"
+                },
+                {
+                    "action": "Watchlist competitor + monitoraggio settimanale claim «#LatteVero» e simili: alert appena un competitor supera 200 mention/sett sul tema sicurezza alimentare",
+                    "owner": "Brand Intelligence",
+                    "timeframe_h": 72,
+                    "rationale": "L'opportunismo competitor è oggi a bassa intensità (60 mention totali, sentiment 0.00), ma il segnale è presente. Strutturare un sistema di alert evita che una crisi futura — anche piccola — venga capitalizzata da concorrenti più reattivi. Costo operativo trascurabile, opzione strategica gratis.",
+                    "kpi_target": "Tempo di reazione brand a claim competitor critico ridotto da 7-10 giorni a 24h",
+                    "priority": "low",
+                    "targets_drivers": [
+                        "Opportunismo competitor (bassa intensità)"
+                    ],
+                    "expected_impact": "Riduzione strutturale del rischio di erosione di quota nel segmento yogurt funzionale per le prossime 4 finestre di crisi annue"
+                }
+            ]
+        },
+        "scenarios": {
+            "horizon_weeks": 4,
+            "model": "gpt-4 (showcase)",
+            "confidence": 0.82,
+            "scenarios": [
+                {
+                    "label": "best",
+                    "title": "Recupero strutturale via trasparenza ATS",
+                    "probability": 0.3,
+                    "narrative": "Il protocollo «Famiglie Sicure» viene lanciato entro 7 giorni con dashboard pubblica. La garanzia commerciale CremaPiù ha redemption del 40%. Il mea culpa dell'AD sul timing chiude il loop comunicativo. Tre testate food coprono in positivo l'audit aperto. Il sentiment sulle famiglie risale da −0.54 a −0.15 in 4 settimane. Il brand esce dalla crisi rafforzato come «più trasparente del settore».",
+                    "drivers": [
+                        "Domanda di trasparenza ATS strutturata",
+                        "Leadership accountability dell'AD"
+                    ],
+                    "early_signals": [
+                        "Dashboard ATS pubblicata entro 7 giorni con traffico organico > 5000 visite/settimana",
+                        "Redemption voucher famiglia > 35% nelle prime 2 settimane",
+                        "Almeno 1 articolo positivo su Dissapore o Sole24Ore Food entro 30 giorni"
+                    ]
+                },
+                {
+                    "label": "base",
+                    "title": "Stabilizzazione su baseline post-crisi, fiducia famiglie non recuperata",
+                    "probability": 0.55,
+                    "narrative": "Il piano d'azione viene eseguito ma in modo annacquato (dashboard solo trimestrale, voucher senza comunicazione mirata, mea culpa diluito in un'intervista invece che lettera aperta). Il volume si stabilizza a 35-50 mention/sett. Sentiment medio risale a −0.05. Il segmento famiglie resta freddo (−0.30 strutturale): non boicottaggio, ma drift silenzioso verso brand percepiti più affidabili. Il caso resta citato in negativo nei prossimi 12 mesi.",
+                    "drivers": [
+                        "Perdita di fiducia delle famiglie con bambini",
+                        "Domanda di trasparenza ATS strutturata"
+                    ],
+                    "early_signals": [
+                        "Dashboard ATS pubblicata oltre i 14 giorni dall'annuncio",
+                        "Voucher comunicato solo via email, redemption < 20%",
+                        "Nessun mea culpa pubblico strutturato sul timing"
+                    ]
+                },
+                {
+                    "label": "worst",
+                    "title": "Secondo evento-shock o whistleblower interno",
+                    "probability": 0.15,
+                    "narrative": "Un secondo richiamo (anche minore) o l'uscita pubblica di un ex dipendente che racconta «come è andata davvero» riapre la crisi. Il volume torna sopra le 400 mention/sett. Il sentiment crolla a −0.45 medio. Le famiglie consolidano il churn. Le testate food riprendono il dossier. Si attiva un'embrione di hashtag boicottaggio. Il danno reputazionale diventa di lungo periodo: 18-24 mesi per recuperare la fiducia perduta.",
+                    "drivers": [
+                        "Perdita di fiducia delle famiglie con bambini",
+                        "Ritardo di comunicazione (72 ore di silenzio)"
+                    ],
+                    "early_signals": [
+                        "Volume settimanale risale sopra 200 mention",
+                        "Hashtag #NoNordaLatte o simile entra nei trend Italia top-100",
+                        "Almeno 1 ex dipendente intervistato pubblicamente con account verificato"
+                    ]
+                }
+            ]
+        },
+        "volume_forecast": {
+            "method": "holt_damped",
+            "history_weeks": 4,
+            "horizon_weeks": 4,
+            "notes": "Holt damped (alpha=0.5, beta=0.3, phi=0.85) con baseline floor a 35 mention/settimana (livello pre-crisi: 80/sett). Lo smorzamento del trend evita il collasso a zero dell'estrapolazione lineare e modella correttamente l'assestamento su regime post-crisi.",
+            "historical": [
+                {
+                    "date": "2026-03-02",
+                    "yhat": 486,
+                    "yhat_lower": 486,
+                    "yhat_upper": 486
+                },
+                {
+                    "date": "2026-03-09",
+                    "yhat": 412,
+                    "yhat_lower": 412,
+                    "yhat_upper": 412
+                },
+                {
+                    "date": "2026-03-16",
+                    "yhat": 238,
+                    "yhat_lower": 238,
+                    "yhat_upper": 238
+                },
+                {
+                    "date": "2026-03-23",
+                    "yhat": 111,
+                    "yhat_lower": 111,
+                    "yhat_upper": 111
+                }
+            ],
+            "forecast": [
+                {
+                    "date": "2026-03-30",
+                    "yhat": 75,
+                    "yhat_lower": 48,
+                    "yhat_upper": 112
+                },
+                {
+                    "date": "2026-04-06",
+                    "yhat": 56,
+                    "yhat_lower": 38,
+                    "yhat_upper": 84
+                },
+                {
+                    "date": "2026-04-13",
+                    "yhat": 45,
+                    "yhat_lower": 35,
+                    "yhat_upper": 68
+                },
+                {
+                    "date": "2026-04-20",
+                    "yhat": 40,
+                    "yhat_lower": 35,
+                    "yhat_upper": 58
+                }
+            ]
+        },
+        "simulation": {
+            "profiles_count": 120,
+            "total_actions": 4083,
+            "actions_by_type": {
+                "refresh": 1812,
+                "do_nothing": 398,
+                "like_post": 624,
+                "dislike_post": 312,
+                "create_comment": 698,
+                "create_post": 204,
+                "sign_up": 35
+            },
+            "sample_posts": [
+                {
+                    "post_id": 1,
+                    "user_id": 12,
+                    "content": "Compro NordaLatte da 15 anni, mia figlia mangia solo CremaPiù. Stamattina ho buttato 4 vasetti. La fiducia non si ricompra con un comunicato."
+                },
+                {
+                    "post_id": 2,
+                    "user_id": 47,
+                    "content": "Ho ascoltato la diretta di Manzoni. Onesta, niente legalese, niente colpa del fornitore. Ha detto «abbiamo sbagliato a comunicare tardi». Punto. Cambio idea sul brand."
+                },
+                {
+                    "post_id": 3,
+                    "user_id": 88,
+                    "content": "La diretta è stata bella ma resta la domanda: come è arrivata la Listeria nello stabilimento? Vogliamo il report ATS pubblico, non il comunicato congiunto."
+                },
+                {
+                    "post_id": 4,
+                    "user_id": 23,
+                    "content": "Ma scherziamo? Il richiamo lo apprendo da un post su FB, non da NordaLatte. Zero email, zero notifica nell'app. È così che si tratta una madre nel 2026?"
+                },
+                {
+                    "post_id": 5,
+                    "user_id": 105,
+                    "content": "Apprezzo il video-tour di Lodi ma servono numeri: tamponi ambientali, frequenza dei controlli, audit di terza parte. Tutto il resto è marketing."
+                },
+                {
+                    "post_id": 6,
+                    "user_id": 64,
+                    "content": "Anche noi facciamo yogurt magro funzionale. Anche noi tracciamo lotto per lotto. Anche noi pubblichiamo i report ATS in tempo reale. #LatteVero"
+                },
+                {
+                    "post_id": 7,
+                    "user_id": 31,
+                    "content": "Case study di crisis communication da manuale: 72h di silenzio, poi diretta del CEO senza filtri PR. Studieremo questo caso a Bocconi nei prossimi mesi."
+                },
+                {
+                    "post_id": 8,
+                    "user_id": 96,
+                    "content": "Mia bambina ha 18 mesi. Listeria. Non riesco a leggere altro. Andiamo da un'altra marca, anche se costa di più."
+                },
+                {
+                    "post_id": 9,
+                    "user_id": 53,
+                    "content": "Il #FilieraTrasparente parte bene. Ora pubblicateli davvero, ogni mese, i risultati dei tamponi. Senza eccezioni."
+                },
+                {
+                    "post_id": 10,
+                    "user_id": 71,
+                    "content": "Carlo Manzoni in 40 minuti ha recuperato una parte di credibilità che la macchina PR aveva bruciato in 72 ore. Raro."
+                }
+            ],
+            "sample_comments": [
+                {
+                    "post_id": 1,
+                    "user_id": 49,
+                    "content": "Stesso vissuto. Compravo NordaLatte da 12 anni. Stamattina ho buttato 6 vasetti. Mi spiace ma per i bambini non si scherza."
+                },
+                {
+                    "post_id": 1,
+                    "user_id": 73,
+                    "content": "Avete provato a chiedere il rimborso? Quanto vi hanno restituito?"
+                },
+                {
+                    "post_id": 2,
+                    "user_id": 14,
+                    "content": "Concordo. Onesto è la parola giusta. Adesso però vediamo i fatti. Le parole le abbiamo già sentite altre volte."
+                },
+                {
+                    "post_id": 2,
+                    "user_id": 92,
+                    "content": "Manzoni ha fatto bene ma resta il fatto che gli ci sono volute 72 ore. Per un brand alimentare con prodotti per bambini è inaccettabile."
+                },
+                {
+                    "post_id": 3,
+                    "user_id": 17,
+                    "content": "Il report ATS è pubblico per legge, basta fare la richiesta di accesso. Il punto è che dovrebbe essere pubblicato dal brand spontaneamente, ogni mese."
+                },
+                {
+                    "post_id": 4,
+                    "user_id": 81,
+                    "content": "Esatto. Il problema non è solo il prodotto, è il modo in cui ci hanno trattato come consumatori."
+                },
+                {
+                    "post_id": 5,
+                    "user_id": 38,
+                    "content": "Concordo. Il video-tour fa marketing, i tamponi fanno scienza. Vogliamo i secondi."
+                },
+                {
+                    "post_id": 6,
+                    "user_id": 102,
+                    "content": "Voi competitor approfittate sempre. La sicurezza alimentare non è un'opportunità di marketing, è un dovere di tutti."
+                },
+                {
+                    "post_id": 7,
+                    "user_id": 28,
+                    "content": "Sarà un caso scolastico, ma su quale lato della cattedra? Positivo o negativo? Vediamo nei prossimi 30 giorni."
+                },
+                {
+                    "post_id": 8,
+                    "user_id": 119,
+                    "content": "Ti capisco. Anche io con i miei due. Si torna alle marche bio locali, costa di più ma almeno dormo."
+                }
+            ],
+            "profiles_preview": [
+                {
+                    "user_id": 12,
+                    "username": "anna_brescia_mamma",
+                    "name": "Anna B.",
+                    "age": 36,
+                    "country": "IT",
+                    "profession": "Insegnante materna",
+                    "bio": "Mamma di due, faccio la spesa per cinque, leggo le etichette.",
+                    "interested_topics": [
+                        "Sicurezza alimentare percepita",
+                        "Trasparenza filiera / supply chain"
+                    ]
+                },
+                {
+                    "user_id": 47,
+                    "username": "andrea_food_analyst",
+                    "name": "Andrea Conti",
+                    "age": 43,
+                    "country": "IT",
+                    "profession": "Sustainability consultant food",
+                    "bio": "Aiuto i retailer alimentari a NON fare greenwashing. Ex Coop.",
+                    "interested_topics": [
+                        "Leadership e accountability (AD)",
+                        "Trasparenza filiera / supply chain"
+                    ]
+                },
+                {
+                    "user_id": 88,
+                    "username": "consumatore_attento_it",
+                    "name": "Marco P.",
+                    "age": 39,
+                    "country": "IT",
+                    "profession": "Ingegnere ambientale",
+                    "bio": "Leggo i report ATS, i bilanci di sostenibilità e le etichette. Tutte.",
+                    "interested_topics": [
+                        "Trasparenza filiera / supply chain",
+                        "Sicurezza alimentare percepita"
+                    ]
+                },
+                {
+                    "user_id": 23,
+                    "username": "francesca_mamma_milano",
+                    "name": "Francesca M.",
+                    "age": 34,
+                    "country": "IT",
+                    "profession": "Avvocato",
+                    "bio": "Mamma di una bimba di 2 anni. Pretendo trasparenza dai brand che pago.",
+                    "interested_topics": [
+                        "Sicurezza alimentare percepita",
+                        "Comunicazione di crisi (timing)"
+                    ]
+                },
+                {
+                    "user_id": 105,
+                    "username": "giornalista_dissapore",
+                    "name": "Stefano R.",
+                    "age": 41,
+                    "country": "IT",
+                    "profession": "Giornalista food trade",
+                    "bio": "Scrivo di filiera alimentare per testate critiche. Niente marchette.",
+                    "interested_topics": [
+                        "Trasparenza filiera / supply chain",
+                        "Leadership e accountability (AD)"
+                    ]
+                },
+                {
+                    "user_id": 64,
+                    "username": "competitor_cremasana",
+                    "name": "Marketing CremaSana",
+                    "age": 0,
+                    "country": "IT",
+                    "profession": "Account aziendale",
+                    "bio": "Yogurt funzionale tracciato blockchain. Tradizione lombarda dal 1987.",
+                    "interested_topics": [
+                        "Opportunismo competitor",
+                        "Trasparenza filiera / supply chain"
+                    ]
+                },
+                {
+                    "user_id": 31,
+                    "username": "bocconi_crisis_prof",
+                    "name": "Prof.ssa Galli",
+                    "age": 52,
+                    "country": "IT",
+                    "profession": "Docente di Strategic Communication",
+                    "bio": "Crisis management, case studies su corporate communication. Bocconi.",
+                    "interested_topics": [
+                        "Leadership e accountability (AD)",
+                        "Comunicazione di crisi (timing)"
+                    ]
+                },
+                {
+                    "user_id": 96,
+                    "username": "valeria_neonato",
+                    "name": "Valeria T.",
+                    "age": 31,
+                    "country": "IT",
+                    "profession": "Designer",
+                    "bio": "Neomamma. Ogni cosa che do a mia figlia me la guardo dieci volte.",
+                    "interested_topics": ["Sicurezza alimentare percepita"]
+                }
+            ],
+            "zep": {
+                "status": "ok",
+                "graph_id": "nordalatte-kg",
+                "facts_registered": 198,
+                "graph_preview": {
+                    "graph_id": "nordalatte-kg",
+                    "nodes": [
+                        {
+                            "id": "brand:nordalatte",
+                            "label": "NordaLatte",
+                            "type": "Brand",
+                            "weight": 100,
+                            "sentiment": -0.12
+                        },
+                        {
+                            "id": "product:cremapiu",
+                            "label": "CremaPiù 0.1%",
+                            "type": "Product",
+                            "weight": 78,
+                            "sentiment": -0.42
+                        },
+                        {
+                            "id": "actor:manzoni",
+                            "label": "Carlo Manzoni (AD)",
+                            "type": "Actor",
+                            "weight": 56,
+                            "sentiment": 0.32
+                        },
+                        {
+                            "id": "topic:sicurezza",
+                            "label": "Sicurezza alimentare percepita",
+                            "type": "Risk",
+                            "weight": 92,
+                            "sentiment": -0.54
+                        },
+                        {
+                            "id": "topic:timing",
+                            "label": "Comunicazione di crisi (timing)",
+                            "type": "Risk",
+                            "weight": 71,
+                            "sentiment": -0.38
+                        },
+                        {
+                            "id": "topic:trasparenza",
+                            "label": "Trasparenza filiera / supply chain",
+                            "type": "Topic",
+                            "weight": 60,
+                            "sentiment": -0.21
+                        },
+                        {
+                            "id": "topic:leadership",
+                            "label": "Leadership e accountability AD",
+                            "type": "Opportunity",
+                            "weight": 43,
+                            "sentiment": 0.32
+                        },
+                        {
+                            "id": "topic:opportunismo",
+                            "label": "Opportunismo competitor",
+                            "type": "Topic",
+                            "weight": 14,
+                            "sentiment": 0.0
+                        },
+                        {
+                            "id": "segment:famiglie",
+                            "label": "Famiglie con bambini 0-6",
+                            "type": "Segment",
+                            "weight": 75,
+                            "sentiment": -0.31
+                        },
+                        {
+                            "id": "segment:informati",
+                            "label": "Consumatori informati",
+                            "type": "Segment",
+                            "weight": 75,
+                            "sentiment": -0.12
+                        },
+                        {
+                            "id": "segment:professionali",
+                            "label": "Stakeholder professionali",
+                            "type": "Segment",
+                            "weight": 38,
+                            "sentiment": 0.28
+                        },
+                        {
+                            "id": "segment:opportunisti",
+                            "label": "Opportunisti",
+                            "type": "Segment",
+                            "weight": 38,
+                            "sentiment": 0.04
+                        },
+                        {
+                            "id": "platform:tiktok",
+                            "label": "TikTok",
+                            "type": "Platform",
+                            "weight": 49,
+                            "sentiment": -0.42
+                        },
+                        {
+                            "id": "platform:linkedin",
+                            "label": "LinkedIn",
+                            "type": "Platform",
+                            "weight": 36,
+                            "sentiment": 0.28
+                        },
+                        {
+                            "id": "platform:facebook",
+                            "label": "Facebook",
+                            "type": "Platform",
+                            "weight": 47,
+                            "sentiment": -0.31
+                        },
+                        {
+                            "id": "event:richiamo",
+                            "label": "Richiamo 14 lotti — 5 mar",
+                            "type": "Event",
+                            "weight": 88,
+                            "sentiment": -0.51
+                        },
+                        {
+                            "id": "event:diretta",
+                            "label": "Diretta AD — 8 mar",
+                            "type": "Event",
+                            "weight": 52,
+                            "sentiment": 0.35
+                        },
+                        {
+                            "id": "competitor:cremasana",
+                            "label": "CremaSana",
+                            "type": "Competitor",
+                            "weight": 22,
+                            "sentiment": 0.05
+                        },
+                        {
+                            "id": "outlet:dissapore",
+                            "label": "Dissapore",
+                            "type": "MediaOutlet",
+                            "weight": 28,
+                            "sentiment": -0.18
+                        },
+                        {
+                            "id": "outlet:ats",
+                            "label": "ATS Milano",
+                            "type": "Institution",
+                            "weight": 31,
+                            "sentiment": 0.05
+                        }
+                    ],
+                    "links": [
+                        {
+                            "source": "brand:nordalatte",
+                            "target": "product:cremapiu",
+                            "type": "owns"
+                        },
+                        {
+                            "source": "product:cremapiu",
+                            "target": "event:richiamo",
+                            "type": "subject_of"
+                        },
+                        {
+                            "source": "actor:manzoni",
+                            "target": "brand:nordalatte",
+                            "type": "leads"
+                        },
+                        {
+                            "source": "actor:manzoni",
+                            "target": "event:diretta",
+                            "type": "delivers"
+                        },
+                        {
+                            "source": "event:richiamo",
+                            "target": "topic:sicurezza",
+                            "type": "fuels"
+                        },
+                        {
+                            "source": "event:richiamo",
+                            "target": "topic:timing",
+                            "type": "fuels"
+                        },
+                        {
+                            "source": "event:diretta",
+                            "target": "topic:leadership",
+                            "type": "fuels"
+                        },
+                        {
+                            "source": "segment:famiglie",
+                            "target": "topic:sicurezza",
+                            "type": "concerned_by"
+                        },
+                        {
+                            "source": "segment:famiglie",
+                            "target": "topic:trasparenza",
+                            "type": "concerned_by"
+                        },
+                        {
+                            "source": "segment:informati",
+                            "target": "topic:trasparenza",
+                            "type": "demands"
+                        },
+                        {
+                            "source": "segment:professionali",
+                            "target": "topic:leadership",
+                            "type": "validates"
+                        },
+                        {
+                            "source": "segment:opportunisti",
+                            "target": "topic:opportunismo",
+                            "type": "amplifies"
+                        },
+                        {
+                            "source": "platform:tiktok",
+                            "target": "event:richiamo",
+                            "type": "amplifies"
+                        },
+                        {
+                            "source": "platform:tiktok",
+                            "target": "topic:timing",
+                            "type": "amplifies"
+                        },
+                        {
+                            "source": "platform:linkedin",
+                            "target": "event:diretta",
+                            "type": "amplifies"
+                        },
+                        {
+                            "source": "platform:linkedin",
+                            "target": "topic:leadership",
+                            "type": "amplifies"
+                        },
+                        {
+                            "source": "platform:facebook",
+                            "target": "topic:sicurezza",
+                            "type": "amplifies"
+                        },
+                        {
+                            "source": "outlet:dissapore",
+                            "target": "brand:nordalatte",
+                            "type": "covers"
+                        },
+                        {
+                            "source": "outlet:dissapore",
+                            "target": "topic:trasparenza",
+                            "type": "demands"
+                        },
+                        {
+                            "source": "outlet:ats",
+                            "target": "event:richiamo",
+                            "type": "regulates"
+                        },
+                        {
+                            "source": "competitor:cremasana",
+                            "target": "topic:opportunismo",
+                            "type": "exploits"
+                        },
+                        {
+                            "source": "brand:nordalatte",
+                            "target": "topic:trasparenza",
+                            "type": "exposed_to"
+                        },
+                        {
+                            "source": "brand:nordalatte",
+                            "target": "topic:sicurezza",
+                            "type": "exposed_to"
+                        }
+                    ]
+                }
+            },
+            "zep_qa": {
+                "status": "ok",
+                "model": "gpt-4 (showcase)",
+                "questions": [
+                    {
+                        "question": "Qual è il segmento più colpito dalla crisi e perché?",
+                        "answer": "Le famiglie con bambini 0-6 anni (33% delle mention) sono il segmento più colpito. Sentiment −0.54 sul topic sicurezza alimentare. Il danno è strutturale perché CremaPiù era posizionato come «primo yogurt del bambino»: la Listeria attacca il claim più sensibile del brand. Le quote sono molto specifiche («15 anni di acquisti», «18 mesi», «4 vasetti buttati») e poco recuperabili con leve marketing tradizionali.",
+                        "facts": [
+                            "segment:famiglie — concerned_by topic:sicurezza, sentiment −0.31",
+                            "topic:sicurezza — Risk, sentiment −0.54, 412 mention",
+                            "product:cremapiu — subject_of event:richiamo, sentiment −0.42"
+                        ],
+                        "fact_count": 3
+                    },
+                    {
+                        "question": "La diretta dell'AD Manzoni ha funzionato?",
+                        "answer": "Sì, parzialmente. La diretta LinkedIn dell'8 marzo è l'unico topic con sentiment positivo (+0.32, 190 mention). Gli stakeholder professionali (analisti, giornalisti food trade, accademici) hanno cambiato opinione sul brand. Il punto narrativo vincente è stato «abbiamo sbagliato a comunicare tardi» — un'ammissione di errore tattico senza scaricare la colpa sul fornitore. Non basta però a ricucire il rapporto con le famiglie, che chiedono azioni, non parole.",
+                        "facts": [
+                            "actor:manzoni — delivers event:diretta, sentiment +0.32",
+                            "topic:leadership — Opportunity, sentiment +0.32, 190 mention",
+                            "segment:professionali — validates topic:leadership, sentiment +0.28"
+                        ],
+                        "fact_count": 3
+                    },
+                    {
+                        "question": "Quale azione ha il rapporto impatto/costo più alto?",
+                        "answer": "Il protocollo «Famiglie Sicure» con dashboard ATS pubblica (azione 1 del piano 72h). Costo operativo basso (la pubblicazione di dati che il brand già raccoglie), impatto narrativo elevato: trasforma la richiesta strutturale dei consumatori informati in un asset di brand, riposiziona NordaLatte come «più trasparente del settore», sblocca la copertura mainstream positiva. Target: sentiment trasparenza da −0.21 a +0.10 in 21 giorni.",
+                        "facts": [
+                            "topic:trasparenza — sentiment −0.21, 267 mention",
+                            "segment:informati — demands topic:trasparenza",
+                            "outlet:dissapore — demands topic:trasparenza"
+                        ],
+                        "fact_count": 3
+                    },
+                    {
+                        "question": "Quale piattaforma ha amplificato di più il danno?",
+                        "answer": "TikTok (218 mention, sentiment −0.42). La clip virale del 6 marzo — madre brescia che mostra i vasetti CremaPiù richiamati — è arrivata 27 ore prima del primo comunicato ufficiale e ha imposto la narrativa al brand invece del contrario. Facebook ha amplificato la rabbia del segmento famiglie (412 mention, sentiment −0.31). LinkedIn è l'unica piattaforma con sentiment positivo grazie alla diretta dell'AD (+0.28).",
+                        "facts": [
+                            "platform:tiktok — amplifies event:richiamo, sentiment −0.42",
+                            "platform:facebook — amplifies topic:sicurezza, sentiment −0.31",
+                            "platform:linkedin — amplifies event:diretta, sentiment +0.28"
+                        ],
+                        "fact_count": 3
+                    },
+                    {
+                        "question": "I competitor sono riusciti ad approfittare della crisi?",
+                        "answer": "No, non in modo strutturato. L'opportunismo competitor pesa solo 60 mention (4.8% del totale) con sentiment 0.00. Alcuni hashtag (#LatteVero) e promo lampo hanno provato a capitalizzare, ma il pubblico ha letto queste mosse come opportuniste. La leva competitiva resta gestibile, ma è un segnale da monitorare: la prossima crisi NordaLatte potrebbe trovare competitor più reattivi e strutturati.",
+                        "facts": [
+                            "topic:opportunismo — sentiment 0.0, 60 mention",
+                            "competitor:cremasana — exploits topic:opportunismo, sentiment +0.05",
+                            "segment:opportunisti — amplifies topic:opportunismo, weight 38"
+                        ],
+                        "fact_count": 3
+                    }
+                ]
+            },
+            "prediction_text": "Nelle prossime 4 settimane il sistema prevede: (1) volume mention in stabilizzazione progressiva da 111 a ~40 mention/settimana, con baseline floor a 35/sett che evita il collasso a zero; (2) sentiment medio in lenta risalita da −0.12 a −0.05 nello scenario base, fino a +0.05 nello scenario best se viene pubblicata la dashboard ATS entro 7 giorni; (3) probabilità 15% di un secondo evento-shock (richiamo minore o whistleblower) che riaprirebbe la crisi e porterebbe il volume sopra 400 mention/sett; (4) attenzione alta sul segmento famiglie 0-6 anni, dove il rischio di churn silenzioso resta elevato per i prossimi 60-90 giorni."
+        },
+        "ontology": {
+            "status": "ok",
+            "model": "gpt-4 (showcase)",
+            "analysis_summary": "Ontologia estratta dal dataset NordaLatte: 8 tipi di entità che mappano una crisi-recall food classica — un Brand esposto a un Risk attraverso un Product specifico (CremaPiù), un Actor accountability (Manzoni) che genera l'unico topic positivo, due Segment colpiti in modo diverso (famiglie emotive, informati razionali), tre Platform che amplificano in direzioni opposte (TikTok negativa, Facebook negativa, LinkedIn positiva), due Event datati che scandiscono la narrativa, e una Institution regolatoria (ATS) che rappresenta l'autorità neutrale del processo. Il pattern è asimmetrico: il rischio è concentrato, l'opportunità è diffusa.",
+            "entity_types": [
+                {
+                    "name": "Brand",
+                    "description": "Brand sotto analisi",
+                    "role_in_simulation": "Soggetto centrale",
+                    "examples": ["NordaLatte"]
+                },
+                {
+                    "name": "Product",
+                    "description": "Prodotto specifico oggetto della crisi",
+                    "role_in_simulation": "Punto di attacco narrativo",
+                    "examples": ["CremaPiù 0.1%"]
+                },
+                {
+                    "name": "Actor",
+                    "description": "Persone identificabili con voce influente",
+                    "role_in_simulation": "Catalizzatori narrativi",
+                    "examples": ["Carlo Manzoni (AD)"]
+                },
+                {
+                    "name": "Risk",
+                    "description": "Topic con potenziale reputazionale negativo",
+                    "role_in_simulation": "Watchpoint critici",
+                    "examples": [
+                        "Sicurezza alimentare percepita",
+                        "Comunicazione di crisi (timing)"
+                    ]
+                },
+                {
+                    "name": "Topic",
+                    "description": "Temi narrativi emergenti",
+                    "role_in_simulation": "Driver di sentiment",
+                    "examples": [
+                        "Trasparenza filiera / supply chain",
+                        "Opportunismo competitor"
+                    ]
+                },
+                {
+                    "name": "Opportunity",
+                    "description": "Topic con upside reputazionale",
+                    "role_in_simulation": "Leve di recupero",
+                    "examples": ["Leadership e accountability AD"]
+                },
+                {
+                    "name": "Segment",
+                    "description": "Cluster demografici/comportamentali",
+                    "role_in_simulation": "Target di azione e segmentazione tono",
+                    "examples": [
+                        "Famiglie con bambini 0-6",
+                        "Consumatori informati",
+                        "Stakeholder professionali"
+                    ]
+                },
+                {
+                    "name": "Platform",
+                    "description": "Canali di conversazione",
+                    "role_in_simulation": "Distribuzione e amplificazione",
+                    "examples": ["TikTok", "Facebook", "LinkedIn"]
+                },
+                {
+                    "name": "Event",
+                    "description": "Eventi datati che scandiscono la narrativa",
+                    "role_in_simulation": "Punti di inflessione del sentiment",
+                    "examples": ["Richiamo 14 lotti", "Diretta AD"]
+                },
+                {
+                    "name": "Institution",
+                    "description": "Autorità neutrali regolatorie",
+                    "role_in_simulation": "Validatori esterni del processo",
+                    "examples": ["ATS Milano"]
+                },
+                {
+                    "name": "MediaOutlet",
+                    "description": "Testate giornalistiche che coprono la crisi",
+                    "role_in_simulation": "Amplificatori critici",
+                    "examples": ["Dissapore"]
+                },
+                {
+                    "name": "Competitor",
+                    "description": "Brand competitor che tentano di capitalizzare",
+                    "role_in_simulation": "Watchlist competitiva",
+                    "examples": ["CremaSana"]
+                }
+            ],
+            "edge_types": [
+                {
+                    "name": "fuels",
+                    "description": "Evento alimenta un topic narrativo",
+                    "source_targets": [
+                        { "source": "Event", "target": "Risk" },
+                        { "source": "Event", "target": "Opportunity" }
+                    ]
+                },
+                {
+                    "name": "amplifies",
+                    "description": "Piattaforma aumenta la visibilità di un evento o topic",
+                    "source_targets": [
+                        { "source": "Platform", "target": "Event" },
+                        { "source": "Platform", "target": "Topic" }
+                    ]
+                },
+                {
+                    "name": "concerned_by",
+                    "description": "Segmento è preoccupato da un topic",
+                    "source_targets": [
+                        { "source": "Segment", "target": "Topic" }
+                    ]
+                },
+                {
+                    "name": "demands",
+                    "description": "Segmento o outlet chiede attivamente trasparenza",
+                    "source_targets": [
+                        { "source": "Segment", "target": "Topic" },
+                        { "source": "MediaOutlet", "target": "Topic" }
+                    ]
+                },
+                {
+                    "name": "validates",
+                    "description": "Segmento riconosce positivamente un'azione del brand",
+                    "source_targets": [
+                        { "source": "Segment", "target": "Opportunity" }
+                    ]
+                },
+                {
+                    "name": "exposed_to",
+                    "description": "Brand è vulnerabile a un topic di rischio",
+                    "source_targets": [{ "source": "Brand", "target": "Risk" }]
+                },
+                {
+                    "name": "owns",
+                    "description": "Brand possiede un prodotto",
+                    "source_targets": [
+                        { "source": "Brand", "target": "Product" }
+                    ]
+                },
+                {
+                    "name": "leads",
+                    "description": "Actor guida il brand",
+                    "source_targets": [{ "source": "Actor", "target": "Brand" }]
+                },
+                {
+                    "name": "delivers",
+                    "description": "Actor esegue un evento di comunicazione",
+                    "source_targets": [{ "source": "Actor", "target": "Event" }]
+                },
+                {
+                    "name": "regulates",
+                    "description": "Istituzione esercita autorità su un evento",
+                    "source_targets": [
+                        { "source": "Institution", "target": "Event" }
+                    ]
+                },
+                {
+                    "name": "exploits",
+                    "description": "Competitor tenta di capitalizzare un topic",
+                    "source_targets": [
+                        { "source": "Competitor", "target": "Topic" }
+                    ]
+                }
+            ]
+        }
+    }
+}

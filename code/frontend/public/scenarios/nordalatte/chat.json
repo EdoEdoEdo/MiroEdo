@@ -1,0 +1,93 @@
+[
+    {
+        "match": "famigli",
+        "answer": "Le famiglie con bambini 0-6 anni rappresentano il 33% delle mention con sentiment −0.31. Sul topic 'sicurezza alimentare percepita' il sentiment scende a −0.54 (412 mention). Le quote sono molto specifiche («15 anni di acquisti», «18 mesi», «4 vasetti buttati»): il danno non si recupera con leve marketing tradizionali. Azione raccomandata: garanzia commerciale CremaPiù + voucher famiglia entro 48h."
+    },
+    {
+        "match": "bambini",
+        "answer": "Le famiglie con bambini 0-6 anni rappresentano il 33% delle mention con sentiment −0.31. Sul topic 'sicurezza alimentare percepita' il sentiment scende a −0.54 (412 mention). Le quote sono molto specifiche («15 anni di acquisti», «18 mesi», «4 vasetti buttati»): il danno non si recupera con leve marketing tradizionali. Azione raccomandata: garanzia commerciale CremaPiù + voucher famiglia entro 48h."
+    },
+    {
+        "match": "timing",
+        "answer": "Il ritardo di 72 ore prima del primo comunicato ufficiale è il singolo errore tattico più citato (318 mention, sentiment −0.38). La clip TikTok virale del 6 marzo è arrivata 27 ore prima del comunicato e ha imposto la narrativa al brand. La diretta dell'AD dell'8 marzo ha contenuto il danno ma non lo ha annullato. Va riconosciuto pubblicamente come errore di processo con una lettera aperta dell'AD."
+    },
+    {
+        "match": "comunicaz",
+        "answer": "Il ritardo di 72 ore prima del primo comunicato ufficiale è il singolo errore tattico più citato (318 mention, sentiment −0.38). La clip TikTok virale del 6 marzo è arrivata 27 ore prima del comunicato e ha imposto la narrativa al brand. La diretta dell'AD dell'8 marzo ha contenuto il danno ma non lo ha annullato. Va riconosciuto pubblicamente come errore di processo con una lettera aperta dell'AD."
+    },
+    {
+        "match": "manzoni",
+        "answer": "La diretta LinkedIn di Carlo Manzoni dell'8 marzo è l'unico topic con sentiment positivo (+0.32, 190 mention). Gli stakeholder professionali (analisti, giornalisti food trade, accademici) hanno cambiato opinione sul brand grazie al «abbiamo sbagliato a comunicare tardi» — un'ammissione di errore tattico senza scaricare la colpa sul fornitore. Va consolidato con azioni concrete, altrimenti diventa marketing."
+    },
+    {
+        "match": "leadership",
+        "answer": "La diretta LinkedIn di Carlo Manzoni dell'8 marzo è l'unico topic con sentiment positivo (+0.32, 190 mention). Gli stakeholder professionali (analisti, giornalisti food trade, accademici) hanno cambiato opinione sul brand grazie al «abbiamo sbagliato a comunicare tardi» — un'ammissione di errore tattico senza scaricare la colpa sul fornitore. Va consolidato con azioni concrete, altrimenti diventa marketing."
+    },
+    {
+        "match": "trasparenz",
+        "answer": "La richiesta di trasparenza ATS strutturata pesa 267 mention con sentiment −0.21. È la leva più redditizia per il recupero a 90 giorni: i consumatori informati chiedono pubblicazione mensile dei tamponi ambientali, audit di terza parte, mappa pubblica degli allevamenti. Azione 1 del piano 72h: lancio dashboard ATS pubblica «Famiglie Sicure»."
+    },
+    {
+        "match": "filiera",
+        "answer": "La richiesta di trasparenza ATS strutturata pesa 267 mention con sentiment −0.21. È la leva più redditizia per il recupero a 90 giorni: i consumatori informati chiedono pubblicazione mensile dei tamponi ambientali, audit di terza parte, mappa pubblica degli allevamenti. Azione 1 del piano 72h: lancio dashboard ATS pubblica «Famiglie Sicure»."
+    },
+    {
+        "match": "ats",
+        "answer": "La richiesta di trasparenza ATS strutturata pesa 267 mention con sentiment −0.21. È la leva più redditizia per il recupero a 90 giorni: i consumatori informati chiedono pubblicazione mensile dei tamponi ambientali, audit di terza parte, mappa pubblica degli allevamenti. Azione 1 del piano 72h: lancio dashboard ATS pubblica «Famiglie Sicure»."
+    },
+    {
+        "match": "tiktok",
+        "answer": "TikTok è la piattaforma che ha amplificato di più il danno (218 mention, sentiment −0.42). La clip virale del 6 marzo — madre brescia che mostra i vasetti CremaPiù richiamati — è arrivata 27 ore prima del primo comunicato ufficiale. Facebook ha amplificato la rabbia delle famiglie (412 mention, −0.31). LinkedIn è l'unica piattaforma con sentiment positivo grazie alla diretta dell'AD (+0.28)."
+    },
+    {
+        "match": "competitor",
+        "answer": "I competitor non sono riusciti a capitalizzare in modo strutturato: opportunismo competitor pesa solo 60 mention (4.8%) con sentiment 0.00. Hashtag come #LatteVero e promo lampo di CremaSana sono stati letti come opportunisti. È un segnale a bassa intensità ma da monitorare con un sistema di alert (azione 5 del piano 72h)."
+    },
+    {
+        "match": "forecast",
+        "answer": "Il modello Holt damped (alpha=0.5, beta=0.3, phi=0.85) con baseline floor a 35 mention/settimana proietta un assestamento progressivo: 75 → 56 → 45 → 40 mention/settimana nelle prossime 4 settimane. La curva non collassa a zero perché il brand mantiene una conversazione organica residua sopra le 35 mention/sett (livello pre-crisi: 80/sett)."
+    },
+    {
+        "match": "volume",
+        "answer": "Il volume mention settimanale è passato da 486 a 111 tra la prima e la quarta settimana di osservazione (−77%). La crisi acuta è esaurita. Forecast a 4 settimane: 75 → 56 → 45 → 40 mention/settimana, con baseline floor a 35/sett che evita il collasso a zero dell'estrapolazione lineare."
+    },
+    {
+        "match": "sentiment",
+        "answer": "Sentiment medio: −0.12 (negativo ma in stabilizzazione). Breakdown: positivo 18%, neutro 21%, negativo 46%, misto 15%. LinkedIn è il canale più positivo (+0.28) grazie alla diretta dell'AD. TikTok è il più negativo (−0.42) per la clip virale del 6 marzo."
+    },
+    {
+        "match": "azion",
+        "answer": "Il piano 72h ha 5 azioni: (1) Dashboard ATS pubblica «Famiglie Sicure» — 24h, ESG Office; (2) Garanzia commerciale CremaPiù + voucher famiglia — 48h, Customer Care; (3) Mea culpa pubblico AD sul timing — 24h, AD; (4) Programma «Audit aperto» a 5 testate food — 72h, PR; (5) Watchlist competitor automatizzata — 72h, Brand Intelligence."
+    },
+    {
+        "match": "action",
+        "answer": "Il piano 72h ha 5 azioni: (1) Dashboard ATS pubblica «Famiglie Sicure» — 24h, ESG Office; (2) Garanzia commerciale CremaPiù + voucher famiglia — 48h, Customer Care; (3) Mea culpa pubblico AD sul timing — 24h, AD; (4) Programma «Audit aperto» a 5 testate food — 72h, PR; (5) Watchlist competitor automatizzata — 72h, Brand Intelligence."
+    },
+    {
+        "match": "scenari",
+        "answer": "Tre scenari a 4 settimane: BEST (30%) — Recupero strutturale via trasparenza ATS, sentiment famiglie da −0.54 a −0.15; BASE (55%) — Stabilizzazione su baseline post-crisi, fiducia famiglie non recuperata, drift silenzioso; WORST (15%) — Secondo evento-shock o whistleblower interno, volume torna sopra 400 mention/sett, danno reputazionale 18-24 mesi."
+    },
+    {
+        "match": "simulaz",
+        "answer": "La simulazione OASIS ha generato 120 profili sintetici su 10 round, producendo 4.083 azioni totali (624 like, 312 dislike, 698 commenti, 204 post, 398 do_nothing). Il knowledge graph Zep ha registrato 198 fatti, mappando le relazioni brand-segment-platform-event tipiche di una crisi-recall food."
+    },
+    {
+        "match": "oasis",
+        "answer": "OASIS ha simulato 120 agenti su 10 round con mix realistico di 4 segmenti (Famiglie 33%, Consumatori informati 33%, Stakeholder professionali 17%, Opportunisti 17%). Le azioni più frequenti sono refresh (1.812) e create_comment (698). I dislike (312) sono concentrati sul segmento famiglie."
+    },
+    {
+        "match": "richiamo",
+        "answer": "Il richiamo del 5 marzo ha riguardato 14 lotti CremaPiù 0.1% per contaminazione Listeria. Pubblicato sul sito istituzionale alle 22:15, ma la prima comunicazione mainstream è arrivata 72 ore dopo — la clip TikTok virale del 6 marzo ha imposto la narrativa al brand. I test di conferma del 22 marzo hanno chiuso il dossier sanitario, non quello reputazionale."
+    },
+    {
+        "match": "listeria",
+        "answer": "La contaminazione Listeria ha colpito 14 lotti di CremaPiù 0.1%, prodotto storicamente posizionato come «primo yogurt del bambino». Questo è il punto di attacco narrativo che ha massimizzato il danno sul segmento famiglie 0-6 anni (sentiment topic −0.54). Tutti i tamponi successivi (22 marzo) risultano negativi, ma il danno reputazionale è strutturale."
+    },
+    {
+        "match": "cremapi",
+        "answer": "CremaPiù 0.1% è il prodotto colpito dal richiamo. Pesa 78 di weight nel knowledge graph, sentiment −0.42. Era posizionato come «primo yogurt del bambino» — questo posizionamento storico è diventato il punto di attacco narrativo principale. Azione 2 del piano: garanzia commerciale + voucher famiglia per riconoscere il danno materiale."
+    },
+    {
+        "answer": "Posso aiutarti a esplorare il report NordaLatte. Prova a chiedermi: famiglie, timing comunicazione, leadership Manzoni, trasparenza ATS, TikTok, competitor, forecast volume, sentiment, piano d'azione, scenari, simulazione OASIS, richiamo Listeria."
+    }
+]

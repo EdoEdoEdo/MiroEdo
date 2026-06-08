@@ -1,0 +1,65 @@
+[
+    {
+        "match": "greenwashing",
+        "answer": "The greenwashing risk accounts for 14.7% of mentions (1,287 out of 8,742) with an average sentiment of −0.62. It is fuelled by 6 viral threads on Reddit r/Italy and by a former employee contradicting official claims. The priority action is to publish an independent audit within 24h."
+    },
+    {
+        "match": "price",
+        "answer": "The 'premium price' topic gathers 1,604 mentions with sentiment −0.31, concentrated on Twitter/X and Reddit. The most sensitive segments are Families 35-55 (38% of the base) and Seniors 55+ (19%). Proposed mitigation: an 'Accessible ESG' campaign with 12 traced products at the pre-hike price."
+    },
+    {
+        "match": "prezzo",
+        "answer": "The 'premium price' topic gathers 1,604 mentions with sentiment −0.31, concentrated on Twitter/X and Reddit. The most sensitive segments are Families 35-55 (38% of the base) and Seniors 55+ (19%). Proposed mitigation: an 'Accessible ESG' campaign with 12 traced products at the pre-hike price."
+    },
+    {
+        "match": "linkedin",
+        "answer": "LinkedIn is the platform with the highest sentiment (+0.48) and hosts ESG analysts citing Verdaia as a case study. It is the channel with the best ROI for organic B2B amplification. Suggested: a dedicated brief for 12 target ESG influencers within 72h."
+    },
+    {
+        "match": "competitor",
+        "answer": "The main competitors monitored are Esselunga (associated with the greenwashing narrative, sentiment −0.12), Conad (neutral, +0.04) and Lidl (positive, +0.21, benefiting from Verdaia's price friction)."
+    },
+    {
+        "match": "forecast",
+        "answer": "The Holt-Winters model forecasts a mention volume of 912–1,082 over the next 4 weeks, with a peak in week 3 in conjunction with mainstream coverage of competitors (+22% vs baseline)."
+    },
+    {
+        "match": "sentiment",
+        "answer": "The average sentiment is +0.18 (moderately positive). Breakdown: positive 42%, neutral 27%, negative 24%, mixed 7%. LinkedIn is the most positive channel (+0.48), Reddit r/Italy the most negative (−0.18)."
+    },
+    {
+        "match": "action",
+        "answer": "The system generated 5 priority actions on a 72h horizon: (1) independent supply-chain audit, (2) 'Accessible ESG' campaign on 12 SKUs, (3) LinkedIn influencer brief, (4) direct response to critical Reddit threads, (5) competitor watch briefing."
+    },
+    {
+        "match": "azion",
+        "answer": "The system generated 5 priority actions on a 72h horizon: (1) independent supply-chain audit, (2) 'Accessible ESG' campaign on 12 SKUs, (3) LinkedIn influencer brief, (4) direct response to critical Reddit threads, (5) competitor watch briefing."
+    },
+    {
+        "match": "topic",
+        "answer": "The most critical topic is 'Greenwashing' (1,287 mentions, sentiment −0.62). The most positive topics are 'Supply-chain traceability' (+0.52) and 'Sustainable packaging' (+0.41). Traceability remains the single most discussed topic overall."
+    },
+    {
+        "match": "simulation",
+        "answer": "The OASIS simulation generated 120 synthetic profiles over 10 rounds, producing 4,127 total actions (1,024 likes, 487 comments, 142 posts, 187 dislikes, 412 do_nothing). The Zep knowledge graph registered 247 facts, mapping brand-competitor-segment-platform relations."
+    },
+    {
+        "match": "simulazione",
+        "answer": "The OASIS simulation generated 120 synthetic profiles over 10 rounds, producing 4,127 total actions (1,024 likes, 487 comments, 142 posts, 187 dislikes, 412 do_nothing). The Zep knowledge graph registered 247 facts, mapping brand-competitor-segment-platform relations."
+    },
+    {
+        "match": "oasis",
+        "answer": "OASIS simulated 120 agents over 10 rounds with a realistic mix of 5 segments (Families 35-55, Gen Z urban, Seniors 55+, EN influencers, Competitor watchers). The most frequent actions are refresh (1,840) and like (1,024). Sample posts show a clear polarisation between advocates and skeptics."
+    },
+    {
+        "match": "scenario",
+        "answer": "Three scenarios modelled at 4 weeks: BEST (28%) — ESG becomes Verdaia's 2026 narrative pillar; BASE (52%) — mixed result, fragmented narrative; WORST (20%) — greenwashing crisis with Reddit escalation and embryonic boycott."
+    },
+    {
+        "match": "scenari",
+        "answer": "Three scenarios modelled at 4 weeks: BEST (28%) — ESG becomes Verdaia's 2026 narrative pillar; BASE (52%) — mixed result, fragmented narrative; WORST (20%) — greenwashing crisis with Reddit escalation and embryonic boycott."
+    },
+    {
+        "answer": "I can help you explore the ESG report for Verdaia Foods. Try asking me about: sentiment, greenwashing, premium price, LinkedIn, competitors, forecast, OASIS simulation, priority actions, or 4-week scenarios."
+    }
+]
