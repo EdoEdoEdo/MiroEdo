@@ -2,6 +2,7 @@
 
 import { useMemo, useState, type MouseEvent } from 'react';
 import * as d3 from 'd3';
+import { useT } from '../lib/i18n';
 import type { VolumeForecast, ForecastPoint } from '../lib/types';
 import { useElementSize } from '../lib/d3Hooks';
 import ChartTooltip, { useChartTooltip } from './ChartTooltip';
@@ -29,6 +30,7 @@ export default function TimelineForecastChart({
 }: {
     fc: VolumeForecast | null | undefined;
 }) {
+    const { t } = useT();
     const { ref, size } = useElementSize<HTMLDivElement>({
         width: 720,
         height: 280,
@@ -105,7 +107,7 @@ export default function TimelineForecastChart({
         if (!pt) return;
         setHoverX(x(pt.date));
         const isForecast = !!splitDate && pt.date > splitDate;
-        const label = isForecast ? 'forecast' : 'storico';
+        const label = isForecast ? t('chart.forecast') : t('chart.history');
         const range = isForecast
             ? `\nIC 95%: ${Math.round(pt.lo).toLocaleString()} – ${Math.round(pt.hi).toLocaleString()}`
             : '';
@@ -140,7 +142,7 @@ export default function TimelineForecastChart({
                     marginBottom: 8,
                 }}
             >
-                Volume mentions · storico + forecast ({fc.method})
+                {t('chart.timeline_title')} ({fc.method})
             </div>
             <div ref={ref} style={{ width: '100%', height }}>
                 <svg width={size.width} height={height} role="img">
@@ -193,7 +195,7 @@ export default function TimelineForecastChart({
                                     strokeDasharray="3 3"
                                 />
                                 <text x={4} y={10} fontSize={10} fill="#aa3a2b">
-                                    oggi
+                                    {t('chart.today')}
                                 </text>
                             </g>
                         )}
@@ -255,7 +257,7 @@ export default function TimelineForecastChart({
                             marginRight: 4,
                         }}
                     />
-                    storico
+                    {t('chart.history')}
                 </span>
                 <span>
                     <span
@@ -267,7 +269,7 @@ export default function TimelineForecastChart({
                             marginRight: 4,
                         }}
                     />
-                    forecast (IC 95%)
+                    {t('chart.forecast_ci')}
                 </span>
                 {fc.notes && (
                     <span style={{ color: '#888' }}>· {fc.notes}</span>

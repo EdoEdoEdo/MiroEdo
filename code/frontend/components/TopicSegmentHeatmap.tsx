@@ -1,5 +1,6 @@
 'use client';
 
+import { useT } from '@/lib/i18n';
 import type { BrandSeed } from '@/lib/types';
 
 /**
@@ -10,6 +11,7 @@ import type { BrandSeed } from '@/lib/types';
  * arrivano dall'API e quindi rimane stabile tra mock e prod.
  */
 export default function TopicSegmentHeatmap({ seed }: { seed: BrandSeed }) {
+    const { t } = useT();
     const topics = (seed.topics ?? []).slice(0, 8);
     const segments = (seed.segments ?? []).slice(0, 6);
 
@@ -65,7 +67,7 @@ export default function TopicSegmentHeatmap({ seed }: { seed: BrandSeed }) {
                     marginBottom: 4,
                 }}
             >
-                Heatmap · topic × segmento
+                {t('chart.heatmap_title')}
             </div>
             <div
                 style={{
@@ -76,8 +78,7 @@ export default function TopicSegmentHeatmap({ seed }: { seed: BrandSeed }) {
                     marginBottom: 16,
                 }}
             >
-                Intensità di affinità tra ogni segmento e i topic dominanti. Più
-                scura la cella, più forte la rilevanza per quel segmento.
+                {t('chart.heatmap_desc')}
             </div>
             <table
                 style={{
@@ -100,7 +101,7 @@ export default function TopicSegmentHeatmap({ seed }: { seed: BrandSeed }) {
                                 letterSpacing: '0.1em',
                             }}
                         >
-                            SEGMENTO
+                            {t('chart.segment')}
                         </th>
                         {topics.map((t) => (
                             <th

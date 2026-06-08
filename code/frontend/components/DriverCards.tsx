@@ -1,5 +1,6 @@
 'use client';
 
+import { useT } from '@/lib/i18n';
 import type { ScenarioDriver, ScenarioDriversSet } from '@/lib/types';
 
 const STRENGTH_META: Record<

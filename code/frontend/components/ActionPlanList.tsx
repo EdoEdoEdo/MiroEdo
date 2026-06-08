@@ -63,7 +63,9 @@ export default function ActionPlanList({ plan }: { plan: ActionPlan }) {
                                             marginTop: 4,
                                         }}
                                     >
-                                        <strong>Impatto atteso:</strong>{' '}
+                                        <strong>
+                                            {t('action.expected_impact')}
+                                        </strong>{' '}
                                         {a.expected_impact}
                                     </div>
                                 )}

@@ -1,5 +1,6 @@
 'use client';
 
+import { useT } from '@/lib/i18n';
 import type { ScenarioSet } from '@/lib/types';
 
 const LABEL_META: Record<
@@ -16,16 +17,19 @@ export default function ScenarioCards({
 }: {
     set: ScenarioSet | null | undefined;
 }) {
+    const { t } = useT();
     if (!set || !set.scenarios?.length) return null;
     return (
         <>
             <h2 style={{ marginTop: 36 }}>
-                Scenari prospettici ({set.horizon_weeks} settimane)
+                {t('scenarios.title')} ({set.horizon_weeks}{' '}
+                {t('scenarios.weeks_suffix')})
             </h2>
             <p style={{ fontStyle: 'italic', color: '#555', marginTop: 0 }}>
-                Tre traiettorie qualitative generate da LLM su dati canonici e
-                scenario di business.
-                {set.model ? ` Generato da ${set.model}.` : ''}
+                {t('scenarios.desc')}
+                {set.model
+                    ? ` ${t('scenarios.generated_by')} ${set.model}.`
+                    : ''}
             </p>
             <div
                 style={{
@@ -100,7 +104,7 @@ export default function ScenarioCards({
                                             marginBottom: 4,
                                         }}
                                     >
-                                        Driver
+                                        {t('scenarios.drivers')}
                                     </div>
                                     <ul
                                         style={{
@@ -127,7 +131,7 @@ export default function ScenarioCards({
                                             marginBottom: 4,
                                         }}
                                     >
-                                        Early signals
+                                        {t('scenarios.early_signals')}
                                     </div>
                                     <ul
                                         style={{

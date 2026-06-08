@@ -24,10 +24,11 @@ const IT: Dict = {
     'about.by': 'di',
     'about.s0.title': 'Origine',
     'about.s0.p1':
-        'MiroEdo è una reimplementazione da zero di MiroFish — stesso dominio (social listening + simulazione ad agenti), stack moderno: FastAPI + Pydantic, Next.js 15, multi-provider LLM (Mistral / Groq / OpenAI), Zep opzionale, type safety end-to-end.',
+        'MiroEdo parte da MiroFish e ne riscrive in profondit\u00e0 i pezzi che contano \u2014 stesso dominio (social listening + simulazione ad agenti), ma con ingestione universale, runner OASIS single-process e stack moderno: FastAPI + Pydantic, Next.js 15, multi-provider LLM (Mistral / Groq / OpenAI), Zep opzionale, type safety end-to-end.',
     'about.s0.p2':
         "La build pubblicata qui è una vetrina statica con dati mock, per far navigare l'esperienza senza credenziali né backend acceso. Lo stesso codice gira end-to-end sui free tier Mistral + Groq (Llama 70B) a costo zero, o su GPT-4/Claude/Mistral Large se preferisci: il provider è una scelta runtime.",
     'about.s0.flow_title': 'Differenze di flusso vs MiroFish',
+    'about.s0.parent_link': 'Progetto originale',
     'about.s0.col_axis': 'Aspetto',
     'about.s0.col_mf': 'MiroFish',
     'about.s0.col_me': 'MiroEdo',
@@ -63,7 +64,7 @@ const IT: Dict = {
     'about.s2.p1':
         "Pipeline a 5 stadi. Ogni stadio è indipendente, testabile e produce un artefatto strutturato (Pydantic). L'LLM viene usato come strumento dove serve (estrazione ontologia, redazione narrativa, ragionamento multi-hop nella chat) ma non sostituisce mai i calcoli deterministici (KPI, forecast, scoring).",
     'about.s3.title': "Cosa c'è dentro",
-    'about.s3.p1': 'Cinque motori indipendenti, orchestrati dal pipeline.',
+    'about.s3.p1': 'Cinque stadi della pipeline, indipendenti e testabili.',
     'about.s3.e1':
         'Adapter universale CSV/XLSX/PDF/MD → schema canonico BrandSeed.',
     'about.s3.e2':
@@ -98,6 +99,7 @@ const IT: Dict = {
         "Sono Edoardo Di Sabatino, frontend developer con la passione per l'AI. Mi diverto a sperimentare 3D e intelligenza artificiale sul web — e MiroEdo nasce esattamente da questa frizione fra interfacce, dati e modelli. Sul mio sito personale trovi gli altri esperimenti.",
     'about.s6.site_label': 'SITO PERSONALE',
     'about.s6.gh_label': 'CODICE',
+    'about.s6.repo_label': 'REPO DEL PROGETTO',
     'about.s6.other_projects': 'ALTRI PROGETTI',
     'about.s6.deepscroll':
         'documentari storici generati da LLM + Guardian API in formato scrollytelling.',
@@ -198,6 +200,54 @@ const IT: Dict = {
     'report.no_simulation': 'Simulazione non eseguita in questa run.',
     'report.download_md': 'Scarica markdown',
     'report.download_pdf': 'Scarica PDF',
+    // --- Report sections (UI frame) ---
+    'report.snapshot_title': 'Snapshot dati',
+    'report.snapshot_desc':
+        'Distribuzione sentiment, topic share-of-voice, mix piattaforme e geo.',
+    'report.chart_top_platforms': 'Top piattaforme',
+    'report.chart_top_countries': 'Top paesi',
+    'report.ontology_title': 'Ontologia stakeholder',
+    'report.kg_title': 'Knowledge graph',
+    'report.kg_desc_inferred':
+        'Grafo dedotto dall\u2019ontologia AI (nessun dataset strutturato).',
+    'report.kg_desc_extracted':
+        'Entit\u00E0 e relazioni estratte dal dataset: brand, topic, country, platform, autori, media outlet, hashtag.',
+    'scenarios.title': 'Scenari prospettici',
+    'scenarios.weeks_suffix': 'settimane',
+    'scenarios.desc':
+        'Tre traiettorie qualitative generate da LLM su dati canonici e scenario di business.',
+    'scenarios.generated_by': 'Generato da',
+    'scenarios.drivers': 'Driver',
+    'scenarios.early_signals': 'Early signals',
+    'drivers.title': 'Driver osservati',
+    'drivers.focus_prefix': 'risposta a:',
+    'drivers.desc':
+        'Fattori inferiti dall\u2019analisi semantica del corpus social, ancorati a topic, mention e sentiment del dataset.',
+    'ontology.subtitle':
+        'Ontologia di stakeholder dedotta da LLM, non dal dataset.',
+    'ontology.relations': 'Relazioni',
+    'kg.show_labels': 'Mostra etichette',
+    'samples.title': 'Top post simulati \u00B7 influence score',
+    'zepqa.title': 'Q&A su Zep memoria',
+    'zepqa.question': 'DOMANDA',
+    'zepqa.facts_support': 'fact a supporto',
+    'zepqa.synthesis': 'sintesi',
+    'chart.sentiment_dist': 'Distribuzione sentiment',
+    'chart.sentiment_avg': 'Sentiment medio',
+    'chart.top_topics': 'Topic principali',
+    'chart.treemap_note':
+        'Area = volume menzioni \u00B7 colore = sentiment medio.',
+    'chart.heatmap_title': 'Heatmap \u00B7 topic \u00D7 segmento',
+    'chart.segment': 'SEGMENTO',
+    'chart.heatmap_desc':
+        'Intensit\u00E0 di affinit\u00E0 tra ogni segmento e i topic dominanti. Pi\u00F9 scura la cella, pi\u00F9 forte la rilevanza per quel segmento.',
+    'chart.timeline_title': 'Volume mentions \u00B7 storico + forecast',
+    'chart.today': 'oggi',
+    'chart.history': 'storico',
+    'chart.forecast': 'forecast',
+    'chart.forecast_ci': 'forecast (IC 95%)',
+    'chart.groupbar_note': 'Colore = sentiment medio del gruppo.',
+    'action.expected_impact': 'Impatto atteso:',
     'interaction.title': 'Interazione',
     'interaction.stub_title': 'PROSSIMAMENTE',
     'interaction.stub_sub':
@@ -325,10 +375,11 @@ const EN: Dict = {
     'about.by': 'by',
     'about.s0.title': 'Origin',
     'about.s0.p1':
-        'MiroEdo is a ground-up reimplementation of MiroFish — same problem space (social listening + agent-based simulation), modern stack: FastAPI + Pydantic, Next.js 15, multi-provider LLM (Mistral / Groq / OpenAI), optional Zep, end-to-end type safety.',
+        'MiroEdo starts from MiroFish and substantially rewrites the parts that matter \u2014 same problem space (social listening + agent-based simulation), but with universal ingestion, a single-process OASIS runner and a modern stack: FastAPI + Pydantic, Next.js 15, multi-provider LLM (Mistral / Groq / OpenAI), optional Zep, end-to-end type safety.',
     'about.s0.p2':
         'The build published here is a static showcase with mock data, so the experience can be navigated without credentials or a running backend. The same codebase runs end-to-end on the Mistral + Groq free tiers (Llama 70B) at zero cost, or on GPT-4 / Claude / Mistral Large if you prefer: the provider is a runtime choice.',
     'about.s0.flow_title': 'Flow differences vs MiroFish',
+    'about.s0.parent_link': 'Original project',
     'about.s0.col_axis': 'Aspect',
     'about.s0.col_mf': 'MiroFish',
     'about.s0.col_me': 'MiroEdo',
@@ -364,7 +415,7 @@ const EN: Dict = {
     'about.s2.p1':
         'Five-stage pipeline. Each stage is independent, testable and produces a structured artifact (Pydantic). The LLM is used as a tool where it matters (ontology extraction, narrative writing, multi-hop chat reasoning) but never replaces deterministic computation (KPIs, forecasts, scoring).',
     'about.s3.title': "What's inside",
-    'about.s3.p1': 'Five independent engines, orchestrated by the pipeline.',
+    'about.s3.p1': 'Five independent, testable pipeline stages.',
     'about.s3.e1':
         'Universal adapter CSV/XLSX/PDF/MD → canonical BrandSeed schema.',
     'about.s3.e2':
@@ -398,6 +449,7 @@ const EN: Dict = {
         "I'm Edoardo Di Sabatino, a frontend developer with a passion for AI. I have fun experimenting with 3D and artificial intelligence on the web — and MiroEdo is born exactly from that friction between interfaces, data and models. The rest of the experiments live on my personal site.",
     'about.s6.site_label': 'PERSONAL SITE',
     'about.s6.gh_label': 'CODE',
+    'about.s6.repo_label': 'PROJECT REPO',
     'about.s6.other_projects': 'OTHER PROJECTS',
     'about.s6.deepscroll':
         'historical documentaries generated by LLM + Guardian API in scrollytelling format.',
@@ -496,6 +548,54 @@ const EN: Dict = {
     'report.no_simulation': 'No simulation in this run.',
     'report.download_md': 'Download markdown',
     'report.download_pdf': 'Download PDF',
+    // --- Report sections (UI frame) ---
+    'report.snapshot_title': 'Data snapshot',
+    'report.snapshot_desc':
+        'Sentiment distribution, topic share-of-voice, platform and geo mix.',
+    'report.chart_top_platforms': 'Top platforms',
+    'report.chart_top_countries': 'Top countries',
+    'report.ontology_title': 'Stakeholder ontology',
+    'report.kg_title': 'Knowledge graph',
+    'report.kg_desc_inferred':
+        'Graph inferred from the AI ontology (no structured dataset).',
+    'report.kg_desc_extracted':
+        'Entities and relations extracted from the dataset: brand, topic, country, platform, authors, media outlets, hashtags.',
+    'scenarios.title': 'Prospective scenarios',
+    'scenarios.weeks_suffix': 'weeks',
+    'scenarios.desc':
+        'Three qualitative trajectories generated by an LLM on canonical data and the business scenario.',
+    'scenarios.generated_by': 'Generated by',
+    'scenarios.drivers': 'Drivers',
+    'scenarios.early_signals': 'Early signals',
+    'drivers.title': 'Observed drivers',
+    'drivers.focus_prefix': 'in response to:',
+    'drivers.desc':
+        'Factors inferred from semantic analysis of the social corpus, anchored to dataset topics, mentions and sentiment.',
+    'ontology.subtitle':
+        'Stakeholder ontology inferred by the LLM, not from the dataset.',
+    'ontology.relations': 'Relations',
+    'kg.show_labels': 'Show labels',
+    'samples.title': 'Top simulated posts \u00B7 influence score',
+    'zepqa.title': 'Q&A on Zep memory',
+    'zepqa.question': 'QUESTION',
+    'zepqa.facts_support': 'supporting facts',
+    'zepqa.synthesis': 'synthesis',
+    'chart.sentiment_dist': 'Sentiment distribution',
+    'chart.sentiment_avg': 'Average sentiment',
+    'chart.top_topics': 'Top topics',
+    'chart.treemap_note':
+        'Area = mention volume \u00B7 color = average sentiment.',
+    'chart.heatmap_title': 'Heatmap \u00B7 topic \u00D7 segment',
+    'chart.segment': 'SEGMENT',
+    'chart.heatmap_desc':
+        'Affinity intensity between each segment and the dominant topics. The darker the cell, the stronger the relevance for that segment.',
+    'chart.timeline_title': 'Mention volume \u00B7 history + forecast',
+    'chart.today': 'today',
+    'chart.history': 'history',
+    'chart.forecast': 'forecast',
+    'chart.forecast_ci': 'forecast (95% CI)',
+    'chart.groupbar_note': 'Color = average group sentiment.',
+    'action.expected_impact': 'Expected impact:',
     'interaction.title': 'Interaction',
     'interaction.stub_title': 'COMING SOON',
     'interaction.stub_sub':

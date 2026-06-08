@@ -152,7 +152,7 @@ export default function KnowledgeGraph({ graph }: { graph: KG }) {
                         checked={showLabels}
                         onChange={(e) => setShowLabels(e.target.checked)}
                     />
-                    Mostra etichette
+                    {t('kg.show_labels')}
                 </label>
             </div>
             <div

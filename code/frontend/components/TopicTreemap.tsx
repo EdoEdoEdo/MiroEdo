@@ -2,11 +2,13 @@
 
 import { useMemo } from 'react';
 import * as d3 from 'd3';
+import { useT } from '../lib/i18n';
 import type { BrandSeed } from '../lib/types';
 import { sentColor, useElementSize } from '../lib/d3Hooks';
 import ChartTooltip, { useChartTooltip } from './ChartTooltip';
 
 export default function TopicTreemap({ seed }: { seed: BrandSeed }) {
+    const { t } = useT();
     const items = useMemo(() => {
         return (seed.topics ?? [])
             .filter((t) => (t.mentions ?? 0) > 0)
@@ -63,7 +65,7 @@ export default function TopicTreemap({ seed }: { seed: BrandSeed }) {
                     marginBottom: 8,
                 }}
             >
-                Topic principali
+                {t('chart.top_topics')}
             </div>
             <div ref={ref} style={{ width: '100%', height }}>
                 <svg width={size.width} height={height} role="img">
@@ -131,7 +133,7 @@ export default function TopicTreemap({ seed }: { seed: BrandSeed }) {
                 </svg>
             </div>
             <div style={{ fontSize: 10, color: '#888', marginTop: 4 }}>
-                Area = volume menzioni · colore = sentiment medio.
+                {t('chart.treemap_note')}
             </div>
             <ChartTooltip tip={tip} />
         </div>

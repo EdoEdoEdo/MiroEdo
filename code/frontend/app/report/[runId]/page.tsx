@@ -173,7 +173,9 @@ export default function ReportPage({
                         <DriverCards drivers={result.scenario_drivers} />
                         <ActionPlanList plan={result.action_plan} />
 
-                        <h2 style={{ marginTop: 36 }}>Snapshot dati</h2>
+                        <h2 style={{ marginTop: 36 }}>
+                            {t('report.snapshot_title')}
+                        </h2>
                         <p
                             style={{
                                 fontStyle: 'italic',
@@ -181,8 +183,7 @@ export default function ReportPage({
                                 marginTop: 0,
                             }}
                         >
-                            Distribuzione sentiment, topic share-of-voice, mix
-                            piattaforme e geo.
+                            {t('report.snapshot_desc')}
                         </p>
                         <div
                             style={{
@@ -196,11 +197,11 @@ export default function ReportPage({
                             <SentimentDonut seed={result.brand_seed} />
                             <TopicTreemap seed={result.brand_seed} />
                             <GroupBarChart
-                                title="Top piattaforme"
+                                title={t('report.chart_top_platforms')}
                                 data={result.brand_seed.platforms}
                             />
                             <GroupBarChart
-                                title="Top paesi"
+                                title={t('report.chart_top_countries')}
                                 data={result.brand_seed.countries}
                             />
                         </div>
@@ -213,7 +214,7 @@ export default function ReportPage({
                         {result.ontology && (
                             <>
                                 <h2 style={{ marginTop: 36 }}>
-                                    Ontologia stakeholder
+                                    {t('report.ontology_title')}
                                 </h2>
                                 <OntologyPanel ontology={result.ontology} />
                             </>
@@ -224,7 +225,7 @@ export default function ReportPage({
                                 0) > 0 && (
                                 <>
                                     <h2 style={{ marginTop: 36 }}>
-                                        Knowledge graph
+                                        {t('report.kg_title')}
                                     </h2>
                                     <p
                                         style={{
@@ -235,8 +236,8 @@ export default function ReportPage({
                                     >
                                         {result.brand_seed.knowledge_graph.stats
                                             ?.inferred
-                                            ? 'Grafo dedotto dall\u2019ontologia AI (nessun dataset strutturato).'
-                                            : 'Entità e relazioni estratte dal dataset: brand, topic, country, platform, autori, media outlet, hashtag.'}
+                                            ? t('report.kg_desc_inferred')
+                                            : t('report.kg_desc_extracted')}
                                     </p>
                                     <KnowledgeGraph
                                         graph={

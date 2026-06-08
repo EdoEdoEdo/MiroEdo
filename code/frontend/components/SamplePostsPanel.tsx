@@ -111,7 +111,7 @@ export default function SamplePostsPanel({
                     marginBottom: 4,
                 }}
             >
-                Top post simulati · influence score
+                {t('samples.title')}
             </div>
             <div
                 style={{

@@ -17,7 +17,7 @@ export default function ZepQAPanel({
 
     return (
         <div style={{ marginTop: 32 }}>
-            <h2 style={{ margin: '0 0 6px' }}>Q&amp;A su Zep memoria</h2>
+            <h2 style={{ margin: '0 0 6px' }}>{t('zepqa.title')}</h2>
             <p
                 style={{
                     fontStyle: 'italic',
@@ -48,7 +48,8 @@ export default function ZepQAPanel({
                                 marginBottom: 6,
                             }}
                         >
-                            DOMANDA {String(i + 1).padStart(2, '0')}
+                            {t('zepqa.question')}{' '}
+                            {String(i + 1).padStart(2, '0')}
                         </div>
                         <div
                             style={{
@@ -83,7 +84,7 @@ export default function ZepQAPanel({
                                         color: '#666',
                                     }}
                                 >
-                                    {q.fact_count} fact a supporto
+                                    {q.fact_count} {t('zepqa.facts_support')}
                                 </summary>
                                 <ul
                                     style={{
@@ -114,7 +115,7 @@ export default function ZepQAPanel({
                         color: '#888',
                     }}
                 >
-                    sintesi · {qa.model}
+                    {t('zepqa.synthesis')} · {qa.model}
                 </div>
             )}
         </div>

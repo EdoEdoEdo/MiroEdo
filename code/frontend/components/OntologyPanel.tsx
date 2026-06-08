@@ -41,7 +41,7 @@ export default function OntologyPanel({
                     AI-INFERRED
                 </span>
                 <span style={{ fontSize: 12, color: '#666' }}>
-                    Ontologia di stakeholder dedotta da LLM, non dal dataset.
+                    {t('ontology.subtitle')}
                 </span>
             </div>
             {ontology.analysis_summary && (

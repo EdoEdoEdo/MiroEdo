@@ -5,6 +5,8 @@ import { useT } from '@/lib/i18n';
 
 const EDOEDOEDO_URL = 'https://www.edoedoedo.it/';
 const GITHUB_URL = 'https://github.com/EdoEdoEdo';
+const MIROFISH_URL = 'https://github.com/666ghj/MiroFish';
+const REPO_URL = 'https://github.com/EdoEdoEdo/MiroEdo';
 
 function Ext({ href, children }: { href: string; children: React.ReactNode }) {
     return (
@@ -51,6 +53,10 @@ export default function AboutPage() {
                     </h2>
                     <p>{t('about.s0.p1')}</p>
                     <p>{t('about.s0.p2')}</p>
+                    <p className="me-about-parent">
+                        {t('about.s0.parent_link')}:{' '}
+                        <Ext href={MIROFISH_URL}>MiroFish</Ext>
+                    </p>
                     <h3 className="me-about-subtitle">
                         {t('about.s0.flow_title')}
                     </h3>
@@ -130,15 +136,15 @@ export default function AboutPage() {
                     </h2>
                     <p>{t('about.s3.p1')}</p>
                     <dl className="me-about-engines">
-                        <dt>Ingestion Engine</dt>
+                        <dt>Ingestion</dt>
                         <dd>{t('about.s3.e1')}</dd>
-                        <dt>Insight Engine</dt>
+                        <dt>Insight</dt>
                         <dd>{t('about.s3.e2')}</dd>
-                        <dt>Media Engine</dt>
+                        <dt>Media</dt>
                         <dd>{t('about.s3.e3')}</dd>
-                        <dt>Simulation Engine (OASIS)</dt>
+                        <dt>Simulation (OASIS)</dt>
                         <dd>{t('about.s3.e4')}</dd>
-                        <dt>Report &amp; Query Engine</dt>
+                        <dt>Report &amp; Query</dt>
                         <dd>{t('about.s3.e5')}</dd>
                     </dl>
                 </section>
@@ -239,6 +245,20 @@ export default function AboutPage() {
                             </div>
                             <div className="me-about-card-host">
                                 edoedoedo.it ↗
+                            </div>
+                        </a>
+                        <a
+                            href={REPO_URL}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="me-about-card"
+                        >
+                            <div className="me-about-card-eyebrow">
+                                {t('about.s6.repo_label')}
+                            </div>
+                            <div className="me-about-card-title">MiroEdo</div>
+                            <div className="me-about-card-host">
+                                github.com/EdoEdoEdo/MiroEdo ↗
                             </div>
                         </a>
                         <a

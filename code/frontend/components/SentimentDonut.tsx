@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react';
 import * as d3 from 'd3';
+import { useT } from '../lib/i18n';
 import type { BrandSeed } from '../lib/types';
 import { useElementSize } from '../lib/d3Hooks';
 import ChartTooltip, { useChartTooltip } from './ChartTooltip';
@@ -14,6 +15,7 @@ const COLORS: Record<string, string> = {
 };
 
 export default function SentimentDonut({ seed }: { seed: BrandSeed }) {
+    const { t } = useT();
     const data = useMemo(() => {
         const b = seed.sentiment_breakdown;
         if (!b) return [];
@@ -70,7 +72,7 @@ export default function SentimentDonut({ seed }: { seed: BrandSeed }) {
                     marginBottom: 8,
                 }}
             >
-                Distribuzione sentiment
+                {t('chart.sentiment_dist')}
             </div>
             <div ref={ref} style={{ width: '100%', height }}>
                 <svg width={size.width} height={height} role="img">
@@ -101,7 +103,7 @@ export default function SentimentDonut({ seed }: { seed: BrandSeed }) {
                             fill="#666"
                             style={{ fontFamily: 'var(--mono)' }}
                         >
-                            Sentiment medio
+                            {t('chart.sentiment_avg')}
                         </text>
                         <text
                             textAnchor="middle"

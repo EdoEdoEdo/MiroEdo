@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react';
 import * as d3 from 'd3';
+import { useT } from '../lib/i18n';
 import { sentColor, useElementSize } from '../lib/d3Hooks';
 import ChartTooltip, { useChartTooltip } from './ChartTooltip';
 
@@ -19,6 +20,7 @@ export default function GroupBarChart({
     title: string;
     data?: GroupStat[];
 }) {
+    const { t } = useT();
     const rows = useMemo(
         () =>
             (data ?? [])
@@ -155,7 +157,7 @@ export default function GroupBarChart({
                 </svg>
             </div>
             <div style={{ fontSize: 10, color: '#888', marginTop: 4 }}>
-                Colore = sentiment medio del gruppo.
+                {t('chart.groupbar_note')}
             </div>
             <ChartTooltip tip={tip} />
         </div>
