@@ -1,0 +1,11 @@
+# Simulation extras — Docker only (requires Python >=3.10,<3.12).
+# Installed on top of requirements.txt inside the python:3.11-slim image.
+
+# ============= OASIS social simulation =============
+# Heavy deps (~2.5 GB incl. torch). Toggled per-run via API flag (default ON).
+camel-oasis==0.2.5
+camel-ai==0.2.78
+
+# ============= Zep (optional graph memory) =============
+# Activated only if ZEP_API_KEY is set in environment.
+zep-cloud==3.13.0
