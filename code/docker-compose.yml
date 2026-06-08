@@ -1,0 +1,45 @@
+services:
+    miroedo-backend:
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        container_name: miroedo-backend
+        ports:
+            - '8000:8000'
+        environment:
+            - LLM_API_KEY=${LLM_API_KEY:-${MISTRAL_API_KEY:-}}
+            - LLM_BASE_URL=${LLM_BASE_URL:-https://api.mistral.ai/v1}
+            - LLM_MODEL_NAME=${LLM_MODEL_NAME:-open-mistral-nemo}
+            - MISTRAL_API_KEY=${MISTRAL_API_KEY:-${LLM_API_KEY:-}}
+            - GROQ_API_KEY=${GROQ_API_KEY:-}
+            - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+            - OPENAI_BASE_URL=${OPENAI_BASE_URL:-}
+            - ZEP_API_KEY=${ZEP_API_KEY:-}
+            - MIROEDO_ENABLE_SIMULATION=${MIROEDO_ENABLE_SIMULATION:-true}
+            - MIROEDO_OASIS_LLM_REACTIONS=${MIROEDO_OASIS_LLM_REACTIONS:-false}
+            - MIROEDO_OASIS_MODEL=${MIROEDO_OASIS_MODEL:-gpt-4o-mini}
+            - MIROEDO_OASIS_LLM_SAMPLE=${MIROEDO_OASIS_LLM_SAMPLE:-0.3}
+            - MIROEDO_OASIS_LLM_MAX_CALLS=${MIROEDO_OASIS_LLM_MAX_CALLS:-100}
+            - MIROEDO_RUNS_DIR=/app/data/runs
+            - MIROEDO_CORS_ORIGINS=${MIROEDO_CORS_ORIGINS:-http://localhost:3000,http://127.0.0.1:3000}
+        volumes:
+            - ./backend/app:/app/app
+            - ./backend/tests:/app/tests
+            - miroedo-runs:/app/data/runs
+        command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+    miroedo-frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        container_name: miroedo-frontend
+        ports:
+            - '3000:3000'
+        environment:
+            - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-http://localhost:8000}
+            - NODE_ENV=production
+        depends_on:
+            - miroedo-backend
+
+volumes:
+    miroedo-runs:
